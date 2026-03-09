@@ -33,3 +33,15 @@
         }
     ]
 }
+
+{
+    "name": "Django: Run management command",
+    "type": "python",
+    "request": "launch",
+    "program": "${workspaceFolder}\\LineFailure\\manage.py",
+    "args": [
+        "findLines"
+    ],
+    "django": true,
+    "console": "integratedTerminal"
+}

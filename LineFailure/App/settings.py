@@ -67,6 +67,7 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = "App.wsgi.application"
 
 
@@ -116,3 +117,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = "static/"
+
+
+EXEL_FILE = BASE_DIR / "Konekcije.xlsx"
+
+CONFIGURATIONS_PATH = BASE_DIR / "konekcije"
+
+ALLOWED_FOLDERS = [
+    "unit-2",
+    "unit-3",
+]

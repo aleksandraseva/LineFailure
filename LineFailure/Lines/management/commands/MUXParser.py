@@ -1,7 +1,21 @@
 import os
 import xml.etree.cElementTree as ET
+from django.conf import settings
 
-from Lines.models.Port import Port
+
+def find_all_service():
+    for folder in os.listdir(settings.CONFIGURATIONS_PATH):
+        path = os.path.join(settings.CONFIGURATIONS_PATH, folder)
+        if os.path.isdir(path):
+            for root, dirs, files in os.walk(path):
+                for dir in dirs:
+                    if dir in settings.ALLOWED_FOLDERS:
+                        for folder in files:
+                            if file == "common_config.xml":
+                                path_config_xml = os.path.join(root, file)
+                                elements = MUXParser.find_all_ports(path_config_xml)
+                                for element in elements:
+                                    print(element)
 
 
 def find_all_ports(config_xml, location):
@@ -25,3 +39,7 @@ def find_all_ports(config_xml, location):
         return ports
     except Exception as e:
         print(e)
+
+
+if __name__ == "__main__":
+    find_all_service()

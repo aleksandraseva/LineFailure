@@ -1,5 +1,5 @@
 import os
-import XMLParser
+from .MUXParser import *
 
 
 def get_folders(self, location):
@@ -25,7 +25,7 @@ def find_config_freq():
                 for file in files:
                     if file == "common_config.xml":
                         path_config_xml = os.path.join(root, file)
-                        elements = XMLParser.find_all_ports(path_config_xml)
+                        elements = MUXParser.find_all_ports(path_config_xml)
                         for element in elements:
                             print(element)
 
