@@ -35,7 +35,7 @@ def find_connection():
                     )
                     data = find_locations.findall(locations)
                     location1 = data[0]
-                    location2 = data[1] // ovdje ima red gdje nema
+                    location2 = data[1]  # ovdje ima red gdje nema
 
                     print(j)
 

@@ -1,6 +1,7 @@
 <ul>
     <h1>Connections</h1>
+    <h2>Size : {{size}}</h2>
 {% for conn in connections %}
-    <li>{{ first_location }} {{ first_unit }}  {{ second_unit }} {{ second_port }}</li>
+    <li>{{ conn.first_location }} {{ conn.first_unit }}  {{ conn.second_unit }} {{ conn.second_location }}</li>
 {% endfor %}
 </ul>
