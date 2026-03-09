@@ -1,0 +1,1091 @@
+<MOB_CFG_FILE name="unit-17" committed="2025-10-28T06:15:07">
+<MOB_CFG_AP name="unitroot" aptype="static" motype="unit.ceop1" protection="unprotected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="unprotected">
+<MOB_CFG_DB name="tdmmgmt_pbusManager" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ownedPbusList>
+<pbusLineNr>3</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+<pbusLineNr>6</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+</ownedPbusList>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="interfaces" aptype="static" motype="port.ifcont" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="if-1" aptype="dynamic" motype="port.ifx" protection="protected" created="2000-01-01T16:03:44" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="CeopDbIfIp" content="config" committed="2000-01-04T14:49:51" seq-nr="0"><CES_IP>
+<IPaddress>192.168.250.1</IPaddress>
+<SubnetMask>255.255.255.0</SubnetMask>
+<DefaultGateway>192.168.250.2</DefaultGateway>
+<QoS>
+<DSCPCES>EFPHB</DSCPCES>
+</QoS>
+</CES_IP>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="CeopDbIfVlan" content="config" committed="2000-01-04T14:49:51" seq-nr="0"><VlanParams>
+<Tag>2501</Tag>
+<Priority>Cos6</Priority>
+</VlanParams>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="adminstate" content="config" committed="2000-01-01T01:32:19" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-04T14:49:51" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>if-1:BL GP radna</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-1" aptype="static" motype="port.e12" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbE12PortTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE3" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE5" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2000-01-06T01:32:16" seq-nr="1"><MainAdminOperIetf_DB>
+<adminState>down</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2024-05-15T11:01:41" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>protecting</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-2" aptype="static" motype="port.e12" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbE12PortTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE3" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE5" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-3" aptype="static" motype="port.e12" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbE12PortTermination" content="config" committed="2024-06-16T11:37:51" seq-nr="0"><TerminationDb>
+<mode>pcm30</mode>
+<bidir>false</bidir>
+</TerminationDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE3" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE5" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2024-06-16T14:31:18" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>down</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2024-05-15T11:01:41" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>port-3: MM working</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="chan-1" aptype="dynamic" motype="chan_pbus_fm_pm.ctp" protection="protected" created="2024-05-15T11:00:32" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T16:21:27" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-2/port-5</ctpRef>
+<cIndex>9</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>2</uvc12Nr>
+<tsAlloc>16</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfguvc12" content="config" committed="2024-05-15T11:01:41" seq-nr="0"><ctpCfgUvc12>
+<tsAlloc>2</tsAlloc>
+<pilotChannel>0</pilotChannel>
+</ctpCfgUvc12>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2024-05-15T11:01:41" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2024-05-15T11:01:41" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2024-05-15T11:01:41" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2024-05-15T11:01:41" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="chan-2" aptype="dynamic" motype="chan_pbus_fm_pm.ctp" protection="protected" created="2000-01-01T16:13:24" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T16:21:27" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-2/port-6</ctpRef>
+<cIndex>10</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>2</uvc12Nr>
+<tsAlloc>32</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfguvc12" content="config" committed="2000-01-01T16:21:27" seq-nr="0"><ctpCfgUvc12>
+<tsAlloc>4</tsAlloc>
+<pilotChannel>0</pilotChannel>
+</ctpCfgUvc12>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-4" aptype="static" motype="port.e12" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbE12PortTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE3" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE5" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-5" aptype="static" motype="port.e12" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbE12PortTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE3" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE5" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-6" aptype="static" motype="port.e12" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbE12PortTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE3" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE5" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-7" aptype="static" motype="port.e12" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbE12PortTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE3" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE5" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-8" aptype="static" motype="port.e12" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbE12PortTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE3" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="BERE5" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="pw" aptype="static" motype="port.pwcontsatop" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="pw-1" aptype="dynamic" motype="port.satop" protection="protected" created="2000-01-01T16:04:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="CeopDbCetAdvanced" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="CeopDbCetBasic" content="config" committed="2000-01-01T16:21:27" seq-nr="0"><CetBasicConfig>
+<CetClockRecoveryMode>ADAPTIVE2</CetClockRecoveryMode>
+<CetFilter>FILTER4</CetFilter>
+</CetBasicConfig>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="CeopDbPwAdmin" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="CeopDbPwInfo" content="config" committed="2024-05-28T11:10:07" seq-nr="0"><PWConfigInfo>
+<SourceIPAddress>192.168.250.1</SourceIPAddress>
+<AssignedToInterface>/unit-17/interfaces/if-1</AssignedToInterface>
+<SourceMAC>696E654E723E</SourceMAC>
+</PWConfigInfo>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="CeopDbPwIp" content="config" committed="2000-01-04T14:49:51" seq-nr="0"><PWConfigDb>
+<DestinationIPaddress>192.168.250.2</DestinationIPaddress>
+<DestinationUDPport>49101</DestinationUDPport>
+<SourceUDPport>49101</SourceUDPport>
+<PacketDelayVariationTolerance>PDV_8</PacketDelayVariationTolerance>
+<Protocol>PROTOCOL_UDP_RTP_PW</Protocol>
+<PwId>0</PwId>
+<PwTtl>0</PwTtl>
+<LspId>0</LspId>
+<LspTtl>0</LspTtl>
+<Direction>Bidirectional</Direction>
+<DestinationMAC>FFFFFFFFFFFF</DestinationMAC>
+<PwIdRemote>0</PwIdRemote>
+</PWConfigDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="CeopDbQueueMgmt" content="config" committed="2000-01-01T16:21:27" seq-nr="0"><QueueManagement>
+<QueueMgmt>Fastxff</QueueMgmt>
+</QueueManagement>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="CeopDbSatop" content="config" committed="2000-01-01T16:21:27" seq-nr="0"><SAToPConfigDb>
+<S_Term>S_PCM30C</S_Term>
+<PayloadSize>256</PayloadSize>
+<TxLBitHandling>LBH_FIXEDZERO</TxLBitHandling>
+<RxLBitHandling>LBH_FIXEDZERO</RxLBitHandling>
+<bidir>false</bidir>
+</SAToPConfigDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="p12sync2" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pbus_p12" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routing" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="AIS" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DEG" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DMANR" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="EPL" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FDPF" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="FUPF" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LBIT" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOCM" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NCI" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="REPL" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOCM" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RNCI" content="default" committed="2000-01-01T16:21:27" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="adminstate" content="config" committed="2000-01-01T01:32:19" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T00:15:30" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>pw-1 BL GP radna</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="chan-1" aptype="dynamic" motype="chan_pbus_fm_pm.ctp" protection="protected" created="2024-05-27T10:59:12" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-3/port-1</ctpRef>
+<cIndex>2</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>4</pbusLineNr>
+<uvc12Nr>2</uvc12Nr>
+<tsAlloc>1</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfguvc12" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ctpCfgUvc12>
+<tsAlloc>2</tsAlloc>
+<pilotChannel>0</pilotChannel>
+</ctpCfgUvc12>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="chan-2" aptype="dynamic" motype="chan_pbus_fm_pm.ctp" protection="protected" created="2024-05-27T10:59:27" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-3/port-2</ctpRef>
+<cIndex>3</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>4</pbusLineNr>
+<uvc12Nr>2</uvc12Nr>
+<tsAlloc>2</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfguvc12" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ctpCfgUvc12>
+<tsAlloc>4</tsAlloc>
+<pilotChannel>0</pilotChannel>
+</ctpCfgUvc12>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="chan-3" aptype="dynamic" motype="chan_pbus_fm_pm.ctp" protection="protected" created="2024-05-27T10:59:43" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-3/port-3</ctpRef>
+<cIndex>4</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>4</pbusLineNr>
+<uvc12Nr>2</uvc12Nr>
+<tsAlloc>4</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfguvc12" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ctpCfgUvc12>
+<tsAlloc>8</tsAlloc>
+<pilotChannel>0</pilotChannel>
+</ctpCfgUvc12>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="chan-4" aptype="dynamic" motype="chan_pbus_fm_pm.ctp" protection="protected" created="2024-05-27T11:00:00" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-3/port-4</ctpRef>
+<cIndex>5</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>4</pbusLineNr>
+<uvc12Nr>2</uvc12Nr>
+<tsAlloc>8</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfguvc12" content="config" committed="2024-05-27T11:00:02" seq-nr="0"><ctpCfgUvc12>
+<tsAlloc>16</tsAlloc>
+<pilotChannel>0</pilotChannel>
+</ctpCfgUvc12>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2024-05-27T11:00:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="chan-17" aptype="dynamic" motype="chan_pbus_fm_pm.ctp" protection="protected" created="2000-01-01T01:48:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T01:50:47" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-21/tdmInterfaces/ppp-1</ctpRef>
+<cIndex>1</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>1</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>255</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfguvc12" content="config" committed="2000-01-01T01:50:47" seq-nr="0"><ctpCfgUvc12>
+<tsAlloc>33423360</tsAlloc>
+<pilotChannel>0</pilotChannel>
+</ctpCfgUvc12>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T01:50:47" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T01:50:47" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T01:50:47" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T01:50:47" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="chan-31" aptype="dynamic" motype="chan_pbus_fm_pm.ctp" protection="protected" created="2000-01-01T02:32:38" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2025-10-28T06:15:07" seq-nr="1"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/managementNetwork/tdmInterfaces/ppp-2</ctpRef>
+<cIndex>11</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>false</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>33</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>2</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfguvc12" content="config" committed="2000-01-01T02:59:03" seq-nr="0"><ctpCfgUvc12>
+<tsAlloc>2147483648</tsAlloc>
+<pilotChannel>0</pilotChannel>
+</ctpCfgUvc12>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T02:59:03" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T02:59:03" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T02:59:03" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T02:59:03" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="pwStructureAware" aptype="static" motype="port.p12cont" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="p12-1" aptype="static" motype="port.pwcontcesopsn" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbPwTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="p12-2" aptype="static" motype="port.pwcontcesopsn" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbPwTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="p12-3" aptype="static" motype="port.pwcontcesopsn" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbPwTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="p12-4" aptype="static" motype="port.pwcontcesopsn" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbPwTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="p12-5" aptype="static" motype="port.pwcontcesopsn" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbPwTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="p12-6" aptype="static" motype="port.pwcontcesopsn" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbPwTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="p12-7" aptype="static" motype="port.pwcontcesopsn" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbPwTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="p12-8" aptype="static" motype="port.pwcontcesopsn" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="CeopDbPwTermination" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:00:45" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_FILE>

@@ -1,0 +1,815 @@
+<MOB_CFG_FILE name="unit-3" committed="2024-09-11T12:45:52">
+<MOB_CFG_AP name="unitroot" aptype="static" motype="unit.tuem1" protection="unprotected" created="2000-01-01T00:00:03" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="unprotected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_pbusManager" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ownedPbusList>
+<pbusLineNr>9</pbusLineNr>
+</ownedPbusList>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="conf-1" aptype="dynamic" motype="conf.voice" protection="protected" created="2023-02-23T13:21:01" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="general" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><db>
+<type>MP2MP</type>
+<cas>true</cas>
+</db>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>conf-1: Cnf_SP_LOW/J</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="part-1" aptype="dynamic" motype="part.voice.ctp" protection="protected" created="2023-02-23T13:21:01" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="general" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><db>
+<cas>true</cas>
+<squelch>false</squelch>
+<inputGain>0dB</inputGain>
+<outputGain>0dB</outputGain>
+<role>ToMaster</role>
+<tsAlloc>1</tsAlloc>
+</db>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-16/port-1/chan-4</ctpRef>
+<cIndex>19</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>16</tsAlloc>
+</specificRead>
+</remoteCtpData>
+<remoteCtpData>
+<ctpRef>/unit-17/port-1/chan-4</ctpRef>
+<cIndex>19</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndProtecting</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>1</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>16</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2023-02-23T13:43:11" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>minor</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>major</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>part-1: Radio_SP_LOW/J</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="part-2" aptype="dynamic" motype="part.voice.ctp" protection="protected" created="2023-02-23T13:21:01" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="general" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><db>
+<cas>true</cas>
+<squelch>false</squelch>
+<inputGain>0dB</inputGain>
+<outputGain>0dB</outputGain>
+<role>Local</role>
+<tsAlloc>2</tsAlloc>
+</db>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-3/port-1</ctpRef>
+<cIndex>15</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>9</pbusLineNr>
+<uvc12Nr>2</uvc12Nr>
+<tsAlloc>1</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2023-02-23T13:43:11" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>minor</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>major</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>part-2: SA_SP_LOW/J</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="part-3" aptype="dynamic" motype="part.voice.ctp" protection="protected" created="2023-02-23T13:21:01" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="general" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><db>
+<cas>true</cas>
+<squelch>false</squelch>
+<inputGain>0dB</inputGain>
+<outputGain>0dB</outputGain>
+<role>ToSlave</role>
+<tsAlloc>4</tsAlloc>
+</db>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-16/port-2/chan-3</ctpRef>
+<cIndex>23</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>1</uvc12Nr>
+<tsAlloc>8</tsAlloc>
+</specificRead>
+</remoteCtpData>
+<remoteCtpData>
+<ctpRef>/unit-17/port-4/chan-3</ctpRef>
+<cIndex>23</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndProtecting</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>1</pbusLineNr>
+<uvc12Nr>3</uvc12Nr>
+<tsAlloc>8</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2023-02-23T13:43:11" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>minor</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>major</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>part-3: BL_SP_LOW/J</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="conf-2" aptype="dynamic" motype="conf.voice" protection="protected" created="2023-02-23T13:22:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="general" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><db>
+<type>MP2MP</type>
+<cas>true</cas>
+</db>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>conf-2: Cnf_STOP/J</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="part-1" aptype="dynamic" motype="part.voice.ctp" protection="protected" created="2023-02-23T13:22:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="general" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><db>
+<cas>true</cas>
+<squelch>false</squelch>
+<inputGain>0dB</inputGain>
+<outputGain>0dB</outputGain>
+<role>ToMaster</role>
+<tsAlloc>8</tsAlloc>
+</db>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-16/port-1/chan-19</ctpRef>
+<cIndex>20</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>524288</tsAlloc>
+</specificRead>
+</remoteCtpData>
+<remoteCtpData>
+<ctpRef>/unit-17/port-1/chan-19</ctpRef>
+<cIndex>20</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndProtecting</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>1</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>524288</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2023-02-23T13:43:11" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>minor</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>major</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>part-1: Radio_STOP/J</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="part-2" aptype="dynamic" motype="part.voice.ctp" protection="protected" created="2023-02-23T13:22:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="general" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><db>
+<cas>true</cas>
+<squelch>false</squelch>
+<inputGain>0dB</inputGain>
+<outputGain>0dB</outputGain>
+<role>Local</role>
+<tsAlloc>16</tsAlloc>
+</db>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-3/port-4</ctpRef>
+<cIndex>16</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>aEndWorking</localRole>
+<remoteRole>zEnd</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>9</pbusLineNr>
+<uvc12Nr>2</uvc12Nr>
+<tsAlloc>8</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2023-02-23T13:43:11" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>minor</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>major</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>part-2: SA_STOP/J</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="part-3" aptype="dynamic" motype="part.voice.ctp" protection="protected" created="2023-02-23T13:22:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="general" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><db>
+<cas>true</cas>
+<squelch>false</squelch>
+<inputGain>0dB</inputGain>
+<outputGain>0dB</outputGain>
+<role>ToSlave</role>
+<tsAlloc>32</tsAlloc>
+</db>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-16/port-2/chan-5</ctpRef>
+<cIndex>24</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>1</uvc12Nr>
+<tsAlloc>32</tsAlloc>
+</specificRead>
+</remoteCtpData>
+<remoteCtpData>
+<ctpRef>/unit-17/port-4/chan-5</ctpRef>
+<cIndex>24</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndProtecting</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>1</pbusLineNr>
+<uvc12Nr>3</uvc12Nr>
+<tsAlloc>32</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="MFA" content="default" committed="2023-02-23T13:43:11" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>minor</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><FMDATABASE>
+<MONITORED>false</MONITORED>
+<SEVERITY>major</SEVERITY>
+<F4SETTHRESHOLD>2500</F4SETTHRESHOLD>
+<F4CLEARTHRESHOLD>10000</F4CLEARTHRESHOLD>
+</FMDATABASE>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>part-3: BL_STOP/J</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-1" aptype="static" motype="port.em.ctp" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-3/conf-1/part-2</ctpRef>
+<cIndex>15</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>9</pbusLineNr>
+<uvc12Nr>1</uvc12Nr>
+<tsAlloc>2</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2000-01-01T00:12:08" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>port-1: SP_LOW/J_124.075</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-2" aptype="static" motype="port.em.ctp" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T00:22:53" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-3" aptype="static" motype="port.em.ctp" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T00:22:53" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-4" aptype="static" motype="port.em.ctp" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-02-23T14:03:58" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-3/conf-2/part-2</ctpRef>
+<cIndex>16</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>9</pbusLineNr>
+<uvc12Nr>1</uvc12Nr>
+<tsAlloc>16</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2023-02-23T13:43:11" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2000-01-01T04:00:17" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>port-4: STOP/J_128.885</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-5" aptype="static" motype="port.em.ctp" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T00:22:53" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-6" aptype="static" motype="port.em.ctp" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T00:22:53" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-7" aptype="static" motype="port.em.ctp" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T00:22:53" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-8" aptype="static" motype="port.em.ctp" protection="protected" created="2000-01-01T00:00:04" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="general" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2000-01-01T00:22:53" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2000-01-01T00:22:53" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_FILE>

@@ -1,0 +1,296 @@
+<MOB_CFG_FILE name="unit-4" committed="1970-01-01T00:07:02">
+<MOB_CFG_AP name="unitroot" aptype="static" motype="unit.tuga" protection="unprotected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="unprotected">
+<MOB_CFG_DB name="tdmmgmt_pbusManager" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="port-1" aptype="static" motype="port.p0.ctp" protection="protected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-1" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:07:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOOT" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-2" aptype="static" motype="port.p0.ctp" protection="protected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-2" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:07:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOOT" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-3" aptype="static" motype="port.p0.ctp" protection="protected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-3" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:07:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOOT" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-4" aptype="static" motype="port.p0.ctp" protection="protected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-4" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:07:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOOT" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-5" aptype="static" motype="port.p0.ctp" protection="protected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-5" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:07:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOOT" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-6" aptype="static" motype="port.p0.ctp" protection="protected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-6" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:07:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOOT" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-7" aptype="static" motype="port.p0.ctp" protection="protected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-7" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:07:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOOT" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-8" aptype="static" motype="port.p0.ctp" protection="protected" created="1970-01-01T00:00:08" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-8" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:07:02" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="AIS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOOT" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:07:02" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_FILE>

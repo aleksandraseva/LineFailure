@@ -1,0 +1,1408 @@
+<MOB_CFG_FILE name="unit-21" committed="2025-05-30T05:46:08">
+<MOB_CFG_AP name="unitroot" aptype="static" motype="unit.etag1" protection="unprotected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="unprotected">
+<MOB_CFG_DB name="tdmmgmt_pbusManager" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><ownedPbusList>
+<pbusLineNr>15</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+</ownedPbusList>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="bridges" aptype="static" motype="bridges" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="bridge-1" aptype="static" motype="bridges.bridge" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridge" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeDb>
+<RstpPriority>32768</RstpPriority>
+<helloInterval>2</helloInterval>
+<forwardingDelay>15</forwardingDelay>
+<maximumAge>20</maximumAge>
+<RstpPathCostVer>802_1t</RstpPathCostVer>
+</bridgeDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="bridge-2" aptype="static" motype="bridges.bridge" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridge" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeDb>
+<RstpPriority>32768</RstpPriority>
+<helloInterval>2</helloInterval>
+<forwardingDelay>15</forwardingDelay>
+<maximumAge>20</maximumAge>
+<RstpPathCostVer>802_1t</RstpPathCostVer>
+</bridgeDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="bridge-3" aptype="static" motype="bridges.bridge" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridge" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeDb>
+<RstpPriority>32768</RstpPriority>
+<helloInterval>2</helloInterval>
+<forwardingDelay>15</forwardingDelay>
+<maximumAge>20</maximumAge>
+<RstpPathCostVer>802_1t</RstpPathCostVer>
+</bridgeDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="bridge-4" aptype="static" motype="bridges.bridge" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridge" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeDb>
+<RstpPriority>32768</RstpPriority>
+<helloInterval>2</helloInterval>
+<forwardingDelay>15</forwardingDelay>
+<maximumAge>20</maximumAge>
+<RstpPathCostVer>802_1t</RstpPathCostVer>
+</bridgeDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="bridge-5" aptype="static" motype="bridges.bridge" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridge" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeDb>
+<RstpPriority>32768</RstpPriority>
+<helloInterval>2</helloInterval>
+<forwardingDelay>15</forwardingDelay>
+<maximumAge>20</maximumAge>
+<RstpPathCostVer>802_1t</RstpPathCostVer>
+</bridgeDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="bridge-6" aptype="static" motype="bridges.bridge" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridge" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeDb>
+<RstpPriority>32768</RstpPriority>
+<helloInterval>2</helloInterval>
+<forwardingDelay>15</forwardingDelay>
+<maximumAge>20</maximumAge>
+<RstpPathCostVer>802_1t</RstpPathCostVer>
+</bridgeDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="bridge-7" aptype="static" motype="bridges.bridge" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridge" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeDb>
+<RstpPriority>32768</RstpPriority>
+<helloInterval>2</helloInterval>
+<forwardingDelay>15</forwardingDelay>
+<maximumAge>20</maximumAge>
+<RstpPathCostVer>802_1t</RstpPathCostVer>
+</bridgeDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="bridge-8" aptype="static" motype="bridges.bridge" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridge" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeDb>
+<RstpPriority>32768</RstpPriority>
+<helloInterval>2</helloInterval>
+<forwardingDelay>15</forwardingDelay>
+<maximumAge>20</maximumAge>
+<RstpPathCostVer>802_1t</RstpPathCostVer>
+</bridgeDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="internalPorts" aptype="static" motype="internalPorts" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="port-1" aptype="static" motype="interfaces.gbeth" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridgeif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeIFDb>
+<index>0</index>
+<bridgeIfMode>trunk</bridgeIfMode>
+<bridgeIfAccess>public</bridgeIfAccess>
+<defaultVlanId>1</defaultVlanId>
+<defaultPriority>0</defaultPriority>
+<isRstpEnabled>true</isRstpEnabled>
+<bridgeIfPathCost>
+<automatic>true</automatic>
+<manual>1</manual>
+</bridgeIfPathCost>
+</bridgeIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ethif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ethIFDb>
+<phyMode>1000MbFD</phyMode>
+<rateLimiter>
+<enabled>false</enabled>
+<cir>100000</cir>
+<cbs>256</cbs>
+</rateLimiter>
+</ethIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="genericif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><genericIFDb>
+<genIndex>0</genIndex>
+<intfAssign>none</intfAssign>
+</genericIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routerif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><routerIFDb>
+<index>0</index>
+<mode>numbered</mode>
+<unnumberedFrom>0</unnumberedFrom>
+<address>0.0.0.0</address>
+<mask>255.255.255.0</mask>
+<peerAddress>0.0.0.0</peerAddress>
+<ospf>
+<enabled>false</enabled>
+<mode>active</mode>
+<area>area1</area>
+<priority>1</priority>
+<authMode>none</authMode>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+</ospf>
+<rip>
+<enabled>false</enabled>
+<mode>active</mode>
+<defaultMetric>0</defaultMetric>
+<authMode>none_ripv1v2</authMode>
+<authKey></authKey>
+<splitHorizon>true</splitHorizon>
+</rip>
+<vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+</vrrp>
+</routerIFDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="loopbackInterface" aptype="static" motype="interfaces.loop" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="genericif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><genericIFDb>
+<genIndex>0</genIndex>
+<intfAssign>router</intfAssign>
+</genericIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routerif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><routerIFDb>
+<index>0</index>
+<mode>numbered</mode>
+<unnumberedFrom>0</unnumberedFrom>
+<address>0.0.0.0</address>
+<mask>255.255.255.255</mask>
+<peerAddress>0.0.0.0</peerAddress>
+<ospf>
+<enabled>false</enabled>
+<mode>active</mode>
+<area>area1</area>
+<priority>1</priority>
+<authMode>none</authMode>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+</ospf>
+<rip>
+<enabled>false</enabled>
+<mode>active</mode>
+<defaultMetric>0</defaultMetric>
+<authMode>none_ripv1v2</authMode>
+<authKey></authKey>
+<splitHorizon>true</splitHorizon>
+</rip>
+<vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>0</priority>
+<virtIpAddr></virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>0</priority>
+<virtIpAddr></virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+</vrrp>
+</routerIFDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-1" aptype="static" motype="interfaces.eth" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridgeif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeIFDb>
+<index>0</index>
+<bridgeIfMode>access</bridgeIfMode>
+<bridgeIfAccess>public</bridgeIfAccess>
+<defaultVlanId>1</defaultVlanId>
+<defaultPriority>0</defaultPriority>
+<isRstpEnabled>true</isRstpEnabled>
+<bridgeIfPathCost>
+<automatic>true</automatic>
+<manual>1</manual>
+</bridgeIfPathCost>
+</bridgeIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ethif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ethIFDb>
+<phyMode>auto</phyMode>
+<rateLimiter>
+<enabled>false</enabled>
+<cir>100000</cir>
+<cbs>256</cbs>
+</rateLimiter>
+</ethIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="genericif" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><genericIFDb>
+<genIndex>0</genIndex>
+<intfAssign>bridge3</intfAssign>
+</genericIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routerif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><routerIFDb>
+<index>0</index>
+<mode>numbered</mode>
+<unnumberedFrom>0</unnumberedFrom>
+<address>0.0.0.0</address>
+<mask>255.255.255.0</mask>
+<peerAddress>0.0.0.0</peerAddress>
+<ospf>
+<enabled>false</enabled>
+<mode>active</mode>
+<area>area1</area>
+<priority>1</priority>
+<authMode>none</authMode>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+</ospf>
+<rip>
+<enabled>false</enabled>
+<mode>active</mode>
+<defaultMetric>0</defaultMetric>
+<authMode>none_ripv1v2</authMode>
+<authKey></authKey>
+<splitHorizon>true</splitHorizon>
+</rip>
+<vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+</vrrp>
+</routerIFDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>down</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>port-1: Test TDS</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-2" aptype="static" motype="interfaces.eth" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridgeif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeIFDb>
+<index>0</index>
+<bridgeIfMode>access</bridgeIfMode>
+<bridgeIfAccess>public</bridgeIfAccess>
+<defaultVlanId>1</defaultVlanId>
+<defaultPriority>0</defaultPriority>
+<isRstpEnabled>true</isRstpEnabled>
+<bridgeIfPathCost>
+<automatic>true</automatic>
+<manual>1</manual>
+</bridgeIfPathCost>
+</bridgeIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ethif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ethIFDb>
+<phyMode>auto</phyMode>
+<rateLimiter>
+<enabled>false</enabled>
+<cir>100000</cir>
+<cbs>256</cbs>
+</rateLimiter>
+</ethIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="genericif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><genericIFDb>
+<genIndex>0</genIndex>
+<intfAssign>none</intfAssign>
+</genericIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routerif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><routerIFDb>
+<index>0</index>
+<mode>numbered</mode>
+<unnumberedFrom>0</unnumberedFrom>
+<address>0.0.0.0</address>
+<mask>255.255.255.0</mask>
+<peerAddress>0.0.0.0</peerAddress>
+<ospf>
+<enabled>false</enabled>
+<mode>active</mode>
+<area>area1</area>
+<priority>1</priority>
+<authMode>none</authMode>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+</ospf>
+<rip>
+<enabled>false</enabled>
+<mode>active</mode>
+<defaultMetric>0</defaultMetric>
+<authMode>none_ripv1v2</authMode>
+<authKey></authKey>
+<splitHorizon>true</splitHorizon>
+</rip>
+<vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+</vrrp>
+</routerIFDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-3" aptype="static" motype="interfaces.eth" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridgeif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeIFDb>
+<index>0</index>
+<bridgeIfMode>access</bridgeIfMode>
+<bridgeIfAccess>public</bridgeIfAccess>
+<defaultVlanId>1</defaultVlanId>
+<defaultPriority>0</defaultPriority>
+<isRstpEnabled>true</isRstpEnabled>
+<bridgeIfPathCost>
+<automatic>true</automatic>
+<manual>1</manual>
+</bridgeIfPathCost>
+</bridgeIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ethif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ethIFDb>
+<phyMode>auto</phyMode>
+<rateLimiter>
+<enabled>false</enabled>
+<cir>100000</cir>
+<cbs>256</cbs>
+</rateLimiter>
+</ethIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="genericif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><genericIFDb>
+<genIndex>0</genIndex>
+<intfAssign>none</intfAssign>
+</genericIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routerif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><routerIFDb>
+<index>0</index>
+<mode>numbered</mode>
+<unnumberedFrom>0</unnumberedFrom>
+<address>0.0.0.0</address>
+<mask>255.255.255.0</mask>
+<peerAddress>0.0.0.0</peerAddress>
+<ospf>
+<enabled>false</enabled>
+<mode>active</mode>
+<area>area1</area>
+<priority>1</priority>
+<authMode>none</authMode>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+</ospf>
+<rip>
+<enabled>false</enabled>
+<mode>active</mode>
+<defaultMetric>0</defaultMetric>
+<authMode>none_ripv1v2</authMode>
+<authKey></authKey>
+<splitHorizon>true</splitHorizon>
+</rip>
+<vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+</vrrp>
+</routerIFDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-4" aptype="static" motype="interfaces.eth" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridgeif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><bridgeIFDb>
+<index>0</index>
+<bridgeIfMode>access</bridgeIfMode>
+<bridgeIfAccess>public</bridgeIfAccess>
+<defaultVlanId>1</defaultVlanId>
+<defaultPriority>0</defaultPriority>
+<isRstpEnabled>true</isRstpEnabled>
+<bridgeIfPathCost>
+<automatic>true</automatic>
+<manual>1</manual>
+</bridgeIfPathCost>
+</bridgeIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ethif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ethIFDb>
+<phyMode>auto</phyMode>
+<rateLimiter>
+<enabled>false</enabled>
+<cir>100000</cir>
+<cbs>256</cbs>
+</rateLimiter>
+</ethIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="genericif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><genericIFDb>
+<genIndex>0</genIndex>
+<intfAssign>none</intfAssign>
+</genericIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routerif" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><routerIFDb>
+<index>0</index>
+<mode>numbered</mode>
+<unnumberedFrom>0</unnumberedFrom>
+<address>0.0.0.0</address>
+<mask>255.255.255.0</mask>
+<peerAddress>0.0.0.0</peerAddress>
+<ospf>
+<enabled>false</enabled>
+<mode>active</mode>
+<area>area1</area>
+<priority>1</priority>
+<authMode>none</authMode>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+</ospf>
+<rip>
+<enabled>false</enabled>
+<mode>active</mode>
+<defaultMetric>0</defaultMetric>
+<authMode>none_ripv1v2</authMode>
+<authKey></authKey>
+<splitHorizon>true</splitHorizon>
+</rip>
+<vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>100</priority>
+<virtIpAddr>0.0.0.0</virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+</vrrp>
+</routerIFDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="router" aptype="static" motype="router" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="router" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><routerDb>
+<router>
+<routerId>0</routerId>
+<ripAutoSumDisable>false</ripAutoSumDisable>
+<redist>
+<ospf>
+<connected>
+<enabled>false</enabled>
+<metric>0</metric>
+</connected>
+<static_>
+<enabled>false</enabled>
+<metric>0</metric>
+</static_>
+<default_>
+<enabled>false</enabled>
+<always>false</always>
+</default_>
+<rip>
+<enabled>false</enabled>
+<metric>0</metric>
+</rip>
+</ospf>
+<rip>
+<connected>
+<enabled>false</enabled>
+<metric>0</metric>
+</connected>
+<static_>
+<enabled>false</enabled>
+<metric>0</metric>
+</static_>
+<default_>
+<enabled>false</enabled>
+</default_>
+<ospf>
+<enabled>false</enabled>
+<metric>0</metric>
+</ospf>
+</rip>
+</redist>
+</router>
+<staticRoute>
+</staticRoute>
+</routerDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="ospf" aptype="static" motype="router.ospf" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="area-1" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospfarea" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ospfAreaDb>
+<enabled>true</enabled>
+<areaId>0.0.0.0</areaId>
+<areaType>Standard</areaType>
+<stubCost>0</stubCost>
+<authMode>none</authMode>
+<addrSummary>
+</addrSummary>
+</ospfAreaDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-2" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospfarea" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ospfAreaDb>
+<enabled>false</enabled>
+<areaId>0.0.0.0</areaId>
+<areaType>Standard</areaType>
+<stubCost>0</stubCost>
+<authMode>none</authMode>
+<addrSummary>
+</addrSummary>
+</ospfAreaDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-3" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospfarea" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ospfAreaDb>
+<enabled>false</enabled>
+<areaId>0.0.0.0</areaId>
+<areaType>Standard</areaType>
+<stubCost>0</stubCost>
+<authMode>none</authMode>
+<addrSummary>
+</addrSummary>
+</ospfAreaDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-4" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospfarea" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ospfAreaDb>
+<enabled>false</enabled>
+<areaId>0.0.0.0</areaId>
+<areaType>Standard</areaType>
+<stubCost>0</stubCost>
+<authMode>none</authMode>
+<addrSummary>
+</addrSummary>
+</ospfAreaDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-5" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospfarea" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ospfAreaDb>
+<enabled>false</enabled>
+<areaId>0.0.0.0</areaId>
+<areaType>Standard</areaType>
+<stubCost>0</stubCost>
+<authMode>none</authMode>
+<addrSummary>
+</addrSummary>
+</ospfAreaDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-6" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospfarea" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ospfAreaDb>
+<enabled>false</enabled>
+<areaId>0.0.0.0</areaId>
+<areaType>Standard</areaType>
+<stubCost>0</stubCost>
+<authMode>none</authMode>
+<addrSummary>
+</addrSummary>
+</ospfAreaDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-7" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospfarea" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ospfAreaDb>
+<enabled>false</enabled>
+<areaId>0.0.0.0</areaId>
+<areaType>Standard</areaType>
+<stubCost>0</stubCost>
+<authMode>none</authMode>
+<addrSummary>
+</addrSummary>
+</ospfAreaDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-8" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospfarea" content="config" committed="1970-01-01T00:00:58" seq-nr="0"><ospfAreaDb>
+<enabled>false</enabled>
+<areaId>0.0.0.0</areaId>
+<areaType>Standard</areaType>
+<stubCost>0</stubCost>
+<authMode>none</authMode>
+<addrSummary>
+</addrSummary>
+</ospfAreaDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="rip" aptype="static" motype="router.rip" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="tdmInterfaces" aptype="static" motype="interfacegroup.tdm" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="tdmifgroup" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><tdmIFGroupDb>
+<TDMlist>
+<ELEMENT>
+<type>Used</type>
+<name>ppp-1</name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+<ELEMENT>
+<type>NotUsed</type>
+<name></name>
+<member></member>
+</ELEMENT>
+</TDMlist>
+</tdmIFGroupDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="ppp-1" aptype="dynamic" motype="interfaces.ppp" protection="protected" created="2025-03-03T09:31:35" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="bridgeif" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><bridgeIFDb>
+<index>4</index>
+<bridgeIfMode>access</bridgeIfMode>
+<bridgeIfAccess>public</bridgeIfAccess>
+<defaultVlanId>1</defaultVlanId>
+<defaultPriority>0</defaultPriority>
+<isRstpEnabled>true</isRstpEnabled>
+<bridgeIfPathCost>
+<automatic>true</automatic>
+<manual>1</manual>
+</bridgeIfPathCost>
+</bridgeIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="genericif" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><genericIFDb>
+<genIndex>4</genIndex>
+<intfAssign>bridge3</intfAssign>
+</genericIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="routerif" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><routerIFDb>
+<index>4</index>
+<mode>numbered</mode>
+<unnumberedFrom>0</unnumberedFrom>
+<address>0.0.0.0</address>
+<mask>255.255.255.0</mask>
+<peerAddress>0.0.0.0</peerAddress>
+<ospf>
+<enabled>false</enabled>
+<mode>active</mode>
+<area>area1</area>
+<priority>1</priority>
+<authMode>none</authMode>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+</ospf>
+<rip>
+<enabled>false</enabled>
+<mode>active</mode>
+<defaultMetric>0</defaultMetric>
+<authMode>none_ripv1v2</authMode>
+<authKey></authKey>
+<splitHorizon>true</splitHorizon>
+</rip>
+<vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>0</priority>
+<virtIpAddr></virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+<vrrp>
+<enabled>false</enabled>
+<virtRouterId>1</virtRouterId>
+<priority>0</priority>
+<virtIpAddr></virtIpAddr>
+<advertiseInterval>1</advertiseInterval>
+<preemptMode>false</preemptMode>
+</vrrp>
+</vrrp>
+</routerIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmif" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><tdmIFDb>
+<index>0</index>
+<CasAisProtection>false</CasAisProtection>
+<bandwidth>2048</bandwidth>
+<timeslots>1</timeslots>
+<M2>0</M2>
+<protocol>PPP</protocol>
+<layerRate>p0_nc</layerRate>
+<MlpppAssignment>None</MlpppAssignment>
+</tdmIFDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2025-03-22T21:40:18" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-16/port-2/chan-6</ctpRef>
+<cIndex>4</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>1</uvc12Nr>
+<tsAlloc>64</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="LOS" content="default" committed="2025-03-22T21:40:18" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2025-03-22T21:40:18" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2025-03-22T21:40:18" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2025-05-30T05:46:08" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>down</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="2025-03-22T21:40:18" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="vlanInterfaces" aptype="static" motype="interfacegroup.vlan" protection="protected" created="1970-01-01T00:00:09" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:00:58" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_FILE>

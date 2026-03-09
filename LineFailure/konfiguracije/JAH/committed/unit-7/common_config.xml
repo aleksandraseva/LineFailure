@@ -1,0 +1,692 @@
+<MOB_CFG_FILE name="unit-7" committed="2025-06-13T01:05:43">
+<MOB_CFG_AP name="unitroot" aptype="static" motype="unit.tuda1" protection="unprotected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="unprotected">
+<MOB_CFG_DB name="tdmmgmt_pbusManager" content="config" committed="2023-02-24T08:04:23" seq-nr="0"><ownedPbusList>
+<pbusLineNr>9</pbusLineNr>
+<pbusLineNr>3</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+</ownedPbusList>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="port-1" aptype="static" motype="port.data.ctp" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-1" content="config" committed="2024-08-19T13:20:07" seq-nr="0"><DbPort>
+<Interface>
+<interfaceType>
+<selectedItem>
+<name>V.24-V.28</name>
+</selectedItem>
+</interfaceType>
+<transmission>eSynchronous</transmission>
+<rate>
+<selectedItem>
+<name>64</name>
+</selectedItem>
+</rate>
+<dataSignalInversion>false</dataSignalInversion>
+<rxDeltaInv>false</rxDeltaInv>
+<rtsDeltaInv>false</rtsDeltaInv>
+</Interface>
+<Synchronous>
+<timing>
+<selectedItem>
+<name>Contradirectional-Fix</name>
+</selectedItem>
+</timing>
+<bf>
+<selectedItem>
+<name>None</name>
+</selectedItem>
+</bf>
+</Synchronous>
+<Asynchronous>
+<dataBits>
+<selectedItem>
+<name>7</name>
+</selectedItem>
+</dataBits>
+<stopBits>
+<selectedItem>
+<name>1</name>
+</selectedItem>
+</stopBits>
+<parityBit>
+<selectedItem>
+<name>No</name>
+</selectedItem>
+</parityBit>
+<signallingRateRange>
+<selectedItem>
+<name>Basic</name>
+</selectedItem>
+</signallingRateRange>
+</Asynchronous>
+<Struct104Control>
+<controlMode>
+<selectedItem>
+<name>NA</name>
+</selectedItem>
+</controlMode>
+<holdActiveTime>20</holdActiveTime>
+</Struct104Control>
+<CfgmFromDTE>
+<signal_105_RTS_C>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_105_RTS_C>
+<signal_108_DTR>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_108_DTR>
+<signallingToNetwork>
+<selectedItem>
+<name>No</name>
+</selectedItem>
+</signallingToNetwork>
+<vxCompatibilityMode>
+<selectedItem>
+<name>No</name>
+</selectedItem>
+</vxCompatibilityMode>
+</CfgmFromDTE>
+<CfgmToDTE>
+<signal_106_CTS>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_106_CTS>
+<signal_107_DSR>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_107_DSR>
+<signal_109_DCD_I>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_109_DCD_I>
+<signal_142_LoopbackIndication>
+<selectedItem>
+<name>OFF</name>
+</selectedItem>
+</signal_142_LoopbackIndication>
+</CfgmToDTE>
+<DelayLocalControlSignals>
+<delay_105_106_109>
+<selectedItem>
+<name>0</name>
+</selectedItem>
+</delay_105_106_109>
+</DelayLocalControlSignals>
+<ReceiveFailure>
+<consequentAction104>
+<selectedItem>
+<name>1</name>
+</selectedItem>
+</consequentAction104>
+<consequentActionBF>
+<selectedItem>
+<name>OFF</name>
+</selectedItem>
+</consequentActionBF>
+</ReceiveFailure>
+<TransmitFailure>
+<levelDetection103>
+<selectedItem>
+<name>False</name>
+</selectedItem>
+</levelDetection103>
+<consequentAction103>
+<selectedItem>
+<name>None</name>
+</selectedItem>
+</consequentAction103>
+</TransmitFailure>
+<TransmitSendTimeFilter>
+<DTEMaxSendTimeFilter>false</DTEMaxSendTimeFilter>
+<DTEMaxSendTime>10</DTEMaxSendTime>
+<DTEMinIdleTimeFilter>false</DTEMinIdleTimeFilter>
+<DTEMinIdleTime>10</DTEMinIdleTime>
+<DTEIdleTimeWindow>20</DTEIdleTimeWindow>
+<consequentActionOnPort>eNone</consequentActionOnPort>
+</TransmitSendTimeFilter>
+<LoopActivation>
+<activationBy>
+<selectedItem>
+<name>EM</name>
+</selectedItem>
+</activationBy>
+</LoopActivation>
+<SignalStatesWhenLoopActive>
+<Loop3b3c>
+<enum103>
+<selectedItem>
+<name>1</name>
+</selectedItem>
+</enum103>
+</Loop3b3c>
+<Loop2b>
+<enum104>
+<selectedItem>
+<name>1</name>
+</selectedItem>
+</enum104>
+<bf>
+<selectedItem>
+<name>OFF</name>
+</selectedItem>
+</bf>
+</Loop2b>
+</SignalStatesWhenLoopActive>
+</DbPort>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2025-05-29T10:10:42" seq-nr="1"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="DTEIL" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DTESL" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOC" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2025-06-12T10:11:32" seq-nr="1"><MainAdminOperIetf_DB>
+<adminState>down</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="1970-01-01T04:42:28" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>port-1: RDR_JAH_CH2_BPSS</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-2" aptype="static" motype="port.data.ctp" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-2" content="config" committed="2023-02-24T08:04:23" seq-nr="0"><DbPort>
+<Interface>
+<interfaceType>
+<selectedItem>
+<name>V.24-V.28</name>
+</selectedItem>
+</interfaceType>
+<transmission>eSynchronous</transmission>
+<rate>
+<selectedItem>
+<name>64</name>
+</selectedItem>
+</rate>
+<dataSignalInversion>false</dataSignalInversion>
+<rxDeltaInv>false</rxDeltaInv>
+<rtsDeltaInv>false</rtsDeltaInv>
+</Interface>
+<Synchronous>
+<timing>
+<selectedItem>
+<name>Contradirectional-Fix</name>
+</selectedItem>
+</timing>
+<bf>
+<selectedItem>
+<name>None</name>
+</selectedItem>
+</bf>
+</Synchronous>
+<Asynchronous>
+<dataBits>
+<selectedItem>
+<name>7</name>
+</selectedItem>
+</dataBits>
+<stopBits>
+<selectedItem>
+<name>1</name>
+</selectedItem>
+</stopBits>
+<parityBit>
+<selectedItem>
+<name>No</name>
+</selectedItem>
+</parityBit>
+<signallingRateRange>
+<selectedItem>
+<name>Basic</name>
+</selectedItem>
+</signallingRateRange>
+</Asynchronous>
+<Struct104Control>
+<controlMode>
+<selectedItem>
+<name>RTS-Control</name>
+</selectedItem>
+</controlMode>
+<holdActiveTime>20</holdActiveTime>
+</Struct104Control>
+<CfgmFromDTE>
+<signal_105_RTS_C>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_105_RTS_C>
+<signal_108_DTR>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_108_DTR>
+<signallingToNetwork>
+<selectedItem>
+<name>No</name>
+</selectedItem>
+</signallingToNetwork>
+<vxCompatibilityMode>
+<selectedItem>
+<name>No</name>
+</selectedItem>
+</vxCompatibilityMode>
+</CfgmFromDTE>
+<CfgmToDTE>
+<signal_106_CTS>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_106_CTS>
+<signal_107_DSR>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_107_DSR>
+<signal_109_DCD_I>
+<selectedItem>
+<name>ON</name>
+</selectedItem>
+</signal_109_DCD_I>
+<signal_142_LoopbackIndication>
+<selectedItem>
+<name>OFF</name>
+</selectedItem>
+</signal_142_LoopbackIndication>
+</CfgmToDTE>
+<DelayLocalControlSignals>
+<delay_105_106_109>
+<selectedItem>
+<name>0</name>
+</selectedItem>
+</delay_105_106_109>
+</DelayLocalControlSignals>
+<ReceiveFailure>
+<consequentAction104>
+<selectedItem>
+<name>1</name>
+</selectedItem>
+</consequentAction104>
+<consequentActionBF>
+<selectedItem>
+<name>OFF</name>
+</selectedItem>
+</consequentActionBF>
+</ReceiveFailure>
+<TransmitFailure>
+<levelDetection103>
+<selectedItem>
+<name>False</name>
+</selectedItem>
+</levelDetection103>
+<consequentAction103>
+<selectedItem>
+<name>None</name>
+</selectedItem>
+</consequentAction103>
+</TransmitFailure>
+<TransmitSendTimeFilter>
+<DTEMaxSendTimeFilter>false</DTEMaxSendTimeFilter>
+<DTEMaxSendTime>10</DTEMaxSendTime>
+<DTEMinIdleTimeFilter>false</DTEMinIdleTimeFilter>
+<DTEMinIdleTime>10</DTEMinIdleTime>
+<DTEIdleTimeWindow>20</DTEIdleTimeWindow>
+<consequentActionOnPort>eNone</consequentActionOnPort>
+</TransmitSendTimeFilter>
+<LoopActivation>
+<activationBy>
+<selectedItem>
+<name>EM</name>
+</selectedItem>
+</activationBy>
+</LoopActivation>
+<SignalStatesWhenLoopActive>
+<Loop3b3c>
+<enum103>
+<selectedItem>
+<name>1</name>
+</selectedItem>
+</enum103>
+</Loop3b3c>
+<Loop2b>
+<enum104>
+<selectedItem>
+<name>1</name>
+</selectedItem>
+</enum104>
+<bf>
+<selectedItem>
+<name>OFF</name>
+</selectedItem>
+</bf>
+</Loop2b>
+</SignalStatesWhenLoopActive>
+</DbPort>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2025-06-13T01:05:43" seq-nr="1"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-16/port-1/chan-18</ctpRef>
+<cIndex>13</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>262144</tsAlloc>
+</specificRead>
+</remoteCtpData>
+<remoteCtpData>
+<ctpRef>/unit-17/port-1/chan-18</ctpRef>
+<cIndex>13</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndProtecting</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>1</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>262144</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="DTEIL" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DTESL" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOC" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2023-02-24T08:04:23" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="1970-01-01T04:42:28" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>port-2: RDR_JAH_DIF_CH2</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-3" aptype="static" motype="port.data.ctp" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-3" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:31:15" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="DTEIL" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DTESL" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOC" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-4" aptype="static" motype="port.data.ctp" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="port-4" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:31:15" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="DTEIL" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="DTESL" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOC" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NDPF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NUPF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RLOF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="port-5" aptype="static" motype="port.eth.ctp" protection="protected" created="1970-01-01T00:00:10" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="EthQosMapping" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="port-5" content="config" committed="2023-02-24T08:04:23" seq-nr="0"><DbEthPort>
+<phy>
+<phyMode>auto</phyMode>
+<flowControl>false</flowControl>
+</phy>
+<qos>
+<mappingProfile>
+<mappingProfileName>
+<selectedItem>
+<name></name>
+</selectedItem>
+</mappingProfileName>
+</mappingProfile>
+<defPrio>0</defPrio>
+<prioSource>eIp</prioSource>
+<rateLimiter>
+<enabled>false</enabled>
+<cir>100000</cir>
+<cbs>256</cbs>
+</rateLimiter>
+</qos>
+<ethTdm>
+<ethRate>eRate512Kbps</ethRate>
+<hdlcFraming>macOverHdlc</hdlcFraming>
+<enableLinkDetection>true</enableLinkDetection>
+</ethTdm>
+</DbEthPort>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2025-06-13T01:05:43" seq-nr="1"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-16/port-1/chan-7</ctpRef>
+<cIndex>2</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>32640</tsAlloc>
+</specificRead>
+</remoteCtpData>
+<remoteCtpData>
+<ctpRef>/unit-17/port-1/chan-7</ctpRef>
+<cIndex>2</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndProtecting</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>1</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>32640</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>true</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="LOSETH" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="LOSTDM" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:31:15" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2023-02-24T08:04:23" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="1970-01-01T04:42:28" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>port-5: VHF/UHF_RMC_JAH</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_FILE>

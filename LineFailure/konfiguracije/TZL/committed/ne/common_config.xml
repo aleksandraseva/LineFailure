@@ -1,0 +1,4355 @@
+<MOB_CFG_FILE name="ne" committed="2024-06-07T20:44:11">
+<MOB_CFG_AP name="unitroot" aptype="static" motype="ne.chassis1.mgmtEntity3" protection="unprotected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="unprotected">
+<MOB_CFG_DB name="ecli_mgmtif" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="mtp_db" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="password" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pwrsve2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="radius" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="session_db" content="config" committed="1970-01-01T00:29:43" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="session_mgmt" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="snmpEnabled" content="config" committed="1970-01-01T00:01:03" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_pbusManager" content="config" committed="1970-01-01T00:17:50" seq-nr="0"><ownedPbusList>
+<pbusLineNr>33</pbusLineNr>
+<pbusLineNr>0</pbusLineNr>
+</ownedPbusList>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="unitsup_oem" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="bridges" aptype="static" motype="bridges" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="bridge-1" aptype="static" motype="bridge" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="ieee8021QBridgeMib" protection="protected">
+<MOB_CFG_DB name="ieeeQBridgeBaseTableEntry" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeQBridgeFdbTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="ieee8021SpanningTreeMib" protection="protected">
+<MOB_CFG_DB name="ieeeSpanningTreeTableEntry" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmBridgeExtMib" protection="protected">
+<MOB_CFG_DB name="KmExtQoSSchedulingProfileTable" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmBridgeExtQoSSchedulingProfileTable_DB>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+</KmBridgeExtQoSSchedulingProfileTable_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmExtQosUserPriorityTraffic" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmErpsMib" protection="protected">
+<MOB_CFG_DB name="kmErpsConfigTable" content="config" committed="1970-01-01T00:18:41" seq-nr="0"><KmErpsConfigTable_DB>
+</KmErpsConfigTable_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="kmErpsGlobalTableEntry" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="kmErpsSubringVcTable" content="config" committed="1970-01-01T00:18:41" seq-nr="0"><KmErpsSubringVcTable_DB>
+</KmErpsSubringVcTable_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="kmErpsTable" content="config" committed="1970-01-01T00:18:41" seq-nr="0"><KmErpsTable_DB>
+</KmErpsTable_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="kmErpsTcPropTable" content="config" committed="1970-01-01T00:18:41" seq-nr="0"><KmErpsTcPropTable_DB>
+</KmErpsTcPropTable_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="kmErpsVlanGroupTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmIeee8021QBridgeMib" protection="protected">
+<MOB_CFG_DB name="kmVlanTable" content="config" committed="2020-01-31T11:42:26" seq-nr="0"><KmIeee8021QBridgeVlanStaticTable_DB>
+<Entry>
+<KmIeee8021QBridgeVlanStaticVlanIndex>1</KmIeee8021QBridgeVlanStaticVlanIndex>
+<KmIeee8021QBridgeVlanStaticName>Default VLAN</KmIeee8021QBridgeVlanStaticName>
+<KmIeee8021QBridgeVlanStaticRowStatus>active</KmIeee8021QBridgeVlanStaticRowStatus>
+</Entry>
+<Entry>
+<KmIeee8021QBridgeVlanStaticVlanIndex>4089</KmIeee8021QBridgeVlanStaticVlanIndex>
+<KmIeee8021QBridgeVlanStaticName>Management</KmIeee8021QBridgeVlanStaticName>
+<KmIeee8021QBridgeVlanStaticRowStatus>active</KmIeee8021QBridgeVlanStaticRowStatus>
+</Entry>
+</KmIeee8021QBridgeVlanStaticTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmMplsExtMib" protection="protected">
+<MOB_CFG_DB name="kmmplsextdualhomingbridgetable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="bridgeport-1101" aptype="dynamic" motype="bridgeport" protection="protected" created="1970-03-03T19:08:26" seq-nr="0">
+<MOB_CFG_MD name="ieee8021BridgeMib" protection="inherited">
+<MOB_CFG_DB name="ieeeBridgeBaseTableEntry" content="config" committed="2020-05-22T07:34:29" seq-nr="0"><Ieee8021BridgeBasePortTableEntry_DB>
+<Ieee8021BridgeBasePortIfIndex>110010000</Ieee8021BridgeBasePortIfIndex>
+<Ieee8021BridgeBasePortType>CustomerVlanPort</Ieee8021BridgeBasePortType>
+<Ieee8021BridgeBasePortAdminPointToPoint>Auto</Ieee8021BridgeBasePortAdminPointToPoint>
+</Ieee8021BridgeBasePortTableEntry_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeBridgePortDecodingTable" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeBridgePortEncodingTable" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeBridgePortPriorityTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeBridgeUserPriorityRegenTable" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="ieee8021QBridgeMib" protection="inherited">
+<MOB_CFG_DB name="ieeeQBridgePortVlanTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="ieee8021SpanningTreeMib" protection="inherited">
+<MOB_CFG_DB name="ieeeSpanningTreePortExtensionTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeSpanningTreePortTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmBridgeExtMib" protection="inherited">
+<MOB_CFG_DB name="KmBridgeExtSpanningTreePortTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmBridgePortExtBscTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmExtQoSClassifierTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmErpsMib" protection="inherited">
+<MOB_CFG_DB name="kmErpsPortTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmIeee8021QBridgeMib" protection="inherited">
+<MOB_CFG_DB name="kmPortTableEntry" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="2020-05-22T07:34:29" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="bridgeport-1105" aptype="dynamic" motype="bridgeport" protection="protected" created="1970-01-01T00:18:27" seq-nr="0">
+<MOB_CFG_MD name="ieee8021BridgeMib" protection="inherited">
+<MOB_CFG_DB name="ieeeBridgeBaseTableEntry" content="config" committed="1970-01-01T00:18:41" seq-nr="0"><Ieee8021BridgeBasePortTableEntry_DB>
+<Ieee8021BridgeBasePortIfIndex>110050000</Ieee8021BridgeBasePortIfIndex>
+<Ieee8021BridgeBasePortType>CustomerVlanPort</Ieee8021BridgeBasePortType>
+<Ieee8021BridgeBasePortAdminPointToPoint>Auto</Ieee8021BridgeBasePortAdminPointToPoint>
+</Ieee8021BridgeBasePortTableEntry_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeBridgePortDecodingTable" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeBridgePortEncodingTable" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeBridgePortPriorityTableEntry" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeBridgeUserPriorityRegenTable" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="ieee8021QBridgeMib" protection="inherited">
+<MOB_CFG_DB name="ieeeQBridgePortVlanTableEntry" content="config" committed="1970-01-01T00:18:41" seq-nr="1"><Ieee8021QBridgePortVlanTableEntry_DB>
+<Ieee8021QBridgePvid>4089</Ieee8021QBridgePvid>
+<Ieee8021QBridgePortAcceptableFrameTypes>AdmitUntaggedAndPriority</Ieee8021QBridgePortAcceptableFrameTypes>
+<Ieee8021QBridgePortIngressFiltering>true</Ieee8021QBridgePortIngressFiltering>
+<Ieee8021QBridgePortMvrpEnabledStatus>false</Ieee8021QBridgePortMvrpEnabledStatus>
+<Ieee8021QBridgePortRestrictedVlanRegistration>false</Ieee8021QBridgePortRestrictedVlanRegistration>
+</Ieee8021QBridgePortVlanTableEntry_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="ieee8021SpanningTreeMib" protection="inherited">
+<MOB_CFG_DB name="ieeeSpanningTreePortExtensionTableEntry" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ieeeSpanningTreePortTableEntry" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmBridgeExtMib" protection="inherited">
+<MOB_CFG_DB name="KmBridgeExtSpanningTreePortTableEntry" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmBridgePortExtBscTableEntry" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmExtQoSClassifierTableEntry" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmErpsMib" protection="inherited">
+<MOB_CFG_DB name="kmErpsPortTableEntry" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmIeee8021QBridgeMib" protection="inherited">
+<MOB_CFG_DB name="kmPortTableEntry" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:18:41" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="svi" aptype="static" motype="svi" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="ifMIB" protection="protected">
+<MOB_CFG_DB name="ifStackTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmSviMib" protection="protected">
+<MOB_CFG_DB name="sviTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="ethif" aptype="static" motype="ethif" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="kmEthPortMib" protection="protected">
+<MOB_CFG_DB name="ethPortTable" content="config" committed="2020-05-22T07:34:29" seq-nr="0"><KmEthPortTable_DB>
+<Entry>
+<KmEthPortIndex>110010000</KmEthPortIndex>
+<KmEthPortType>Cvp</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>110020000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>110030000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>110040000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>110050000</KmEthPortIndex>
+<KmEthPortType>Cvp</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>130010000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>130020000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>130030000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>130040000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>130050000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>119002000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>139002000</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>119002100</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+<Entry>
+<KmEthPortIndex>139002100</KmEthPortIndex>
+<KmEthPortType>None</KmEthPortType>
+</Entry>
+</KmEthPortTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="fan" aptype="static" motype="unit.fan.fanuv" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="type" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EQM" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="HWIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PBF" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TBF" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="alarm-1" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-2" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-3" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="config" committed="2020-09-25T17:34:54" seq-nr="1"><polarityStruct>
+<polarity>ACTIVE_OPEN</polarity>
+</polarityStruct>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-4" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="config" committed="2020-09-25T17:34:54" seq-nr="1"><polarityStruct>
+<polarity>ACTIVE_OPEN</polarity>
+</polarityStruct>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-5" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-6" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-7" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-8" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-9" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-10" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-11" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="alarm-12" aptype="static" motype="port.alarm.in" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="polarity" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="EAL" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="managementNetwork" aptype="static" motype="group.dcn_router" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="dcnRouter" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="loopbackInterfaces" aptype="static" motype="interfacegroup.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="lo-1" aptype="static" motype="interface.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="config" committed="1970-01-01T00:15:18" seq-nr="0"><router>
+<mode>numbered</mode>
+<unnumberedFrom>none</unnumberedFrom>
+<address>10.1.1.114</address>
+<mask>255.255.255.255</mask>
+<peerAddress></peerAddress>
+<mtu>1500</mtu>
+<icmp>
+<enabled>false</enabled>
+<interval>40</interval>
+<destination>
+</destination>
+</icmp>
+</router>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="1970-01-01T00:15:18" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lo-2" aptype="static" motype="interface.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lo-3" aptype="static" motype="interface.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lo-4" aptype="static" motype="interface.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lo-5" aptype="static" motype="interface.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lo-6" aptype="static" motype="interface.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lo-7" aptype="static" motype="interface.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lo-8" aptype="static" motype="interface.loop" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="mplsMccInterfaces" aptype="static" motype="interfacegroup.mplsmcc" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="router" aptype="static" motype="router" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="router2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="ospf" aptype="static" motype="router.ospf" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ospf" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="1970-01-01T00:15:18" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="area-0" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="area2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-1" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="area2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-2" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="area2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-3" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="area2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-4" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="area2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-5" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="area2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-6" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="area2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="area-7" aptype="static" motype="router.ospf.area" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="area2" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="tdmInterfaces" aptype="static" motype="interfacegroup.tdm" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="ppp-2" aptype="dynamic" motype="interface.ppp" protection="protected" created="1970-01-01T00:15:49" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="addr" content="config" committed="1970-01-01T00:17:50" seq-nr="0"><router>
+<mode>unnumbered</mode>
+<unnumberedFrom>lo1</unnumberedFrom>
+<address></address>
+<mask>255.255.255.0</mask>
+<peerAddress></peerAddress>
+<mtu>1500</mtu>
+<icmp>
+<enabled>false</enabled>
+<interval>40</interval>
+<destination>
+</destination>
+</icmp>
+</router>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="config" committed="2020-05-22T07:34:29" seq-nr="0"><ospf>
+<enabled>true</enabled>
+<mode>active</mode>
+<area>0</area>
+<priority>1</priority>
+<authType>none</authType>
+<authKey></authKey>
+<helloInterval>20</helloInterval>
+<routerDeadInterval>80</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+<ifType>ptp</ifType>
+<authKeyId>1</authKeyId>
+</ospf>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdm" content="config" committed="1970-01-01T00:17:50" seq-nr="0"><tdm>
+<index>1</index>
+<timeslots>2</timeslots>
+<uvc>0</uvc>
+<layer>p0_nc</layer>
+</tdm>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="1970-01-01T00:17:50" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-18/port-1/chan-31</ctpRef>
+<cIndex>7</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>3</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>2147483648</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="LOS" content="default" committed="1970-01-01T00:17:50" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="1970-01-01T00:17:50" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="1970-01-01T00:17:50" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="adminstate" content="config" committed="1970-01-01T00:17:50" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2023-05-08T22:16:48" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>ppp-2: ECC BLK3</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="ppp-3" aptype="dynamic" motype="interface.ppp" protection="protected" created="2023-05-08T22:08:21" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="inherited">
+<MOB_CFG_DB name="addr" content="config" committed="2023-05-08T22:16:48" seq-nr="0"><router>
+<mode>unnumbered</mode>
+<unnumberedFrom>lo1</unnumberedFrom>
+<address></address>
+<mask>255.255.255.0</mask>
+<peerAddress></peerAddress>
+<mtu>1500</mtu>
+<icmp>
+<enabled>false</enabled>
+<interval>40</interval>
+<destination>
+</destination>
+</icmp>
+</router>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="config" committed="2023-05-08T22:16:48" seq-nr="0"><ospf>
+<enabled>true</enabled>
+<mode>active</mode>
+<area>0</area>
+<priority>1</priority>
+<authType>none</authType>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+<ifType>ptp</ifType>
+<authKeyId>1</authKeyId>
+</ospf>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdm" content="config" committed="2023-05-08T22:16:48" seq-nr="0"><tdm>
+<index>2</index>
+<timeslots>4</timeslots>
+<uvc>0</uvc>
+<layer>p0_nc</layer>
+</tdm>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="tdmmgmt_ctpcfg" content="config" committed="2023-05-08T22:16:48" seq-nr="0"><ctpCfg>
+<revertive>true</revertive>
+<supervised>false</supervised>
+<switchoverLogging>false</switchoverLogging>
+<remoteCtpDataList>
+<remoteCtpData>
+<ctpRef>/unit-17/port-1/chan-4</ctpRef>
+<cIndex>8</cIndex>
+<write>true</write>
+<read>true</read>
+<localRole>zEnd</localRole>
+<remoteRole>aEndWorking</remoteRole>
+<specificRead>
+<hasCas>true</hasCas>
+<needsCas>false</needsCas>
+<pbusLineNr>2</pbusLineNr>
+<uvc12Nr>0</uvc12Nr>
+<tsAlloc>16</tsAlloc>
+</specificRead>
+</remoteCtpData>
+</remoteCtpDataList>
+<casAisSupervision>false</casAisSupervision>
+</ctpCfg>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="inherited">
+<MOB_CFG_DB name="LOS" content="default" committed="2023-05-08T22:16:48" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RTSF" content="default" committed="2023-05-08T22:16:48" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="TSF" content="default" committed="2023-05-08T22:16:48" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="inherited">
+<MOB_CFG_DB name="adminstate" content="config" committed="2023-05-08T22:16:48" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="config" committed="2023-05-08T22:16:48" seq-nr="0"><MainBase_DB_Labels>
+<Uuid></Uuid>
+<UserLabel>ppp-3: ECC SJJ4</UserLabel>
+<ServiceLabel></ServiceLabel>
+<DescriptionField></DescriptionField>
+</MainBase_DB_Labels>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="vlanInterface" aptype="static" motype="interface.mgmtvlan" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="addr" content="config" committed="1970-01-01T00:15:18" seq-nr="0"><router>
+<mode>numbered</mode>
+<unnumberedFrom>none</unnumberedFrom>
+<address>192.168.50.1</address>
+<mask>255.255.255.0</mask>
+<peerAddress></peerAddress>
+<mtu>1500</mtu>
+<icmp>
+<enabled>false</enabled>
+<interval>40</interval>
+<destination>
+</destination>
+</icmp>
+</router>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="mgmtvlan" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ospf4" content="config" committed="1970-01-01T00:17:50" seq-nr="0"><ospf>
+<enabled>true</enabled>
+<mode>active</mode>
+<area>0</area>
+<priority>1</priority>
+<authType>none</authType>
+<authKey></authKey>
+<helloInterval>10</helloInterval>
+<routerDeadInterval>40</routerDeadInterval>
+<transmitDelay>1</transmitDelay>
+<retransmitDelay>5</retransmitDelay>
+<interfaceMetric>
+<automatic>true</automatic>
+<metric>0</metric>
+</interfaceMetric>
+<ifType>broadcast</ifType>
+<authKeyId>1</authKeyId>
+</ospf>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="IPDU" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="adminstate" content="config" committed="2020-01-31T11:42:26" seq-nr="0"><MainAdminOperIetf_DB>
+<adminState>up</adminState>
+</MainAdminOperIetf_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="monitor" aptype="static" motype="monitor" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="switchRMON" protection="protected">
+<MOB_CFG_DB name="smonPortCopyTableEntry" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="mpls" aptype="static" motype="mpls" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="kmMplsIdStdMIB" protection="protected">
+<MOB_CFG_DB name="Cc" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="GlobalId" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="Icc" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="NodeId" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmMplsMib" protection="protected">
+<MOB_CFG_DB name="BfdCcGachType" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmMplsTeExtStdMIB" protection="protected">
+<MOB_CFG_DB name="MplsTunnelExtNodeConfigTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MplsTunnelExtNodeIccTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MplsTunnelExtNodeIpMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="crossConnects" aptype="static" motype="crossConnects" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="mplsLsrStdMIB" protection="protected">
+<MOB_CFG_DB name="mplsInSegmentMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="mplsInSegmentTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="mplsLabelStackTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="mplsOutSegmentTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="mplsXCNotificationsEnable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="mplsXCTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lps" aptype="static" motype="lps" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="MFA" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PTF" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RMM" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmMplsLpsMIB" protection="protected">
+<MOB_CFG_DB name="configMeTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="configTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="mplsif" aptype="static" motype="mplsif" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="ifMIB" protection="protected">
+<MOB_CFG_DB name="ifStackTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmMplsQosExtMib" protection="protected">
+<MOB_CFG_DB name="KmMplsQosExtExpPhb" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmMplsQosExtExpTrafficClass" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmMplsQosExtExpTrafficClassTable_DB>
+<Entry>
+<KmMplsQosExtExpTrafficClassExp>0</KmMplsQosExtExpTrafficClassExp>
+<KmMplsQosExtExpTrafficClassTrafficClass>0</KmMplsQosExtExpTrafficClassTrafficClass>
+<KmMplsQosExtExpTrafficClassDropPrecedence>0</KmMplsQosExtExpTrafficClassDropPrecedence>
+</Entry>
+<Entry>
+<KmMplsQosExtExpTrafficClassExp>1</KmMplsQosExtExpTrafficClassExp>
+<KmMplsQosExtExpTrafficClassTrafficClass>1</KmMplsQosExtExpTrafficClassTrafficClass>
+<KmMplsQosExtExpTrafficClassDropPrecedence>0</KmMplsQosExtExpTrafficClassDropPrecedence>
+</Entry>
+<Entry>
+<KmMplsQosExtExpTrafficClassExp>2</KmMplsQosExtExpTrafficClassExp>
+<KmMplsQosExtExpTrafficClassTrafficClass>2</KmMplsQosExtExpTrafficClassTrafficClass>
+<KmMplsQosExtExpTrafficClassDropPrecedence>0</KmMplsQosExtExpTrafficClassDropPrecedence>
+</Entry>
+<Entry>
+<KmMplsQosExtExpTrafficClassExp>3</KmMplsQosExtExpTrafficClassExp>
+<KmMplsQosExtExpTrafficClassTrafficClass>3</KmMplsQosExtExpTrafficClassTrafficClass>
+<KmMplsQosExtExpTrafficClassDropPrecedence>0</KmMplsQosExtExpTrafficClassDropPrecedence>
+</Entry>
+<Entry>
+<KmMplsQosExtExpTrafficClassExp>4</KmMplsQosExtExpTrafficClassExp>
+<KmMplsQosExtExpTrafficClassTrafficClass>4</KmMplsQosExtExpTrafficClassTrafficClass>
+<KmMplsQosExtExpTrafficClassDropPrecedence>0</KmMplsQosExtExpTrafficClassDropPrecedence>
+</Entry>
+<Entry>
+<KmMplsQosExtExpTrafficClassExp>5</KmMplsQosExtExpTrafficClassExp>
+<KmMplsQosExtExpTrafficClassTrafficClass>4</KmMplsQosExtExpTrafficClassTrafficClass>
+<KmMplsQosExtExpTrafficClassDropPrecedence>0</KmMplsQosExtExpTrafficClassDropPrecedence>
+</Entry>
+<Entry>
+<KmMplsQosExtExpTrafficClassExp>6</KmMplsQosExtExpTrafficClassExp>
+<KmMplsQosExtExpTrafficClassTrafficClass>5</KmMplsQosExtExpTrafficClassTrafficClass>
+<KmMplsQosExtExpTrafficClassDropPrecedence>0</KmMplsQosExtExpTrafficClassDropPrecedence>
+</Entry>
+<Entry>
+<KmMplsQosExtExpTrafficClassExp>7</KmMplsQosExtExpTrafficClassExp>
+<KmMplsQosExtExpTrafficClassTrafficClass>6</KmMplsQosExtExpTrafficClassTrafficClass>
+<KmMplsQosExtExpTrafficClassDropPrecedence>0</KmMplsQosExtExpTrafficClassDropPrecedence>
+</Entry>
+</KmMplsQosExtExpTrafficClassTable_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmMplsQosExtPduPrioBfdCcExp" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmMplsQosExtPhbExp" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmMplsQosExtUserPriorityExp" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PduPrioFaultOamExp" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PduPrioMccExp" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PduPrioPscExp" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmSecuMIB" protection="protected">
+<MOB_CFG_DB name="mplsIfExtTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="mplsif-0" aptype="static" motype="mplsif-x" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="ifMIB" protection="protected">
+<MOB_CFG_DB name="ifTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="ifXTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="mplsLsrStdMIB" protection="protected">
+<MOB_CFG_DB name="mplsInterfaceTableEntry" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="oam" aptype="static" motype="oam" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="bfd" aptype="static" motype="bfd" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="LOC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="RDI" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmBfdMIB" protection="protected">
+<MOB_CFG_DB name="sessTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmBfdMplsMib" protection="protected">
+<MOB_CFG_DB name="sessTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="lspPing" aptype="static" motype="lspPing" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="maintEntities" aptype="static" motype="maintEntities" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="kmMplsOamIdStdMIB" protection="protected">
+<MOB_CFG_DB name="MeTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MegTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="pm" aptype="static" motype="pm" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="tunnels" aptype="static" motype="tunnels" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="kmMplsExtMib" protection="protected">
+<MOB_CFG_DB name="kmmplsextadmintunneltable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="kmmplsextdualhomingtunneltable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmSecuMIB" protection="protected">
+<MOB_CFG_DB name="mplsTunnelExtTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="mplsTeStdMIB" protection="protected">
+<MOB_CFG_DB name="MplsTunnelNotificationEnable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MplsTunnelNotificationMaxRate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MplsTunnelResourceTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="MplsTunnelTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="vpls" aptype="static" motype="vpls" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="kmMplsExtMib" protection="protected">
+<MOB_CFG_DB name="kmmplsextvplstable" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmMplsExtVplsAdminTable_DB>
+</KmMplsExtVplsAdminTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmMplsQosExtMib" protection="protected">
+<MOB_CFG_DB name="KmMplsQosExtVplsReplicClassTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmMplsQosExtVplsReplicSchedulingTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmMplsQosExtVplsReplicShaperTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="vplsGenericMIB" protection="protected">
+<MOB_CFG_DB name="vplsTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="pseudowires" aptype="static" motype="pseudowires" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="kmMplsExtMib" protection="protected">
+<MOB_CFG_DB name="kmmplsextpwtable" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmMplsExtPwAdminTable_DB>
+</KmMplsExtPwAdminTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmMplsQosExtMib" protection="protected">
+<MOB_CFG_DB name="KmMplsQosExtPwEnetModeTable" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmMplsQosExtPwEnetModeTable_DB>
+</KmMplsQosExtPwEnetModeTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="pwEnetStdMIB" protection="protected">
+<MOB_CFG_DB name="pwEnetTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="pwMplsStdMIB" protection="protected">
+<MOB_CFG_DB name="pwMplsNonTeMappingTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pwMplsOutboundTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pwMplsTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pwMplsTeMappingTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="pwStdMIB" protection="protected">
+<MOB_CFG_DB name="pwDeletedNotifEnable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pwNotifRate" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pwPeerMappingTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pwTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="pwUpDownNotifEnable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="qos" aptype="static" motype="qos" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="kmBridgeExtMib" protection="protected">
+<MOB_CFG_DB name="KmExtQoSSchedulingProfileTable" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmBridgeExtQoSSchedulingProfileTable_DB>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>1</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>2</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>3</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>4</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>0</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>1</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>2</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>3</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>4</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>5</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>6</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+<Entry>
+<KmBridgeExtQoSSchedulingComponentId>1</KmBridgeExtQoSSchedulingComponentId>
+<KmBridgeExtQoSSchedulingProfileIndex>5</KmBridgeExtQoSSchedulingProfileIndex>
+<KmBridgeExtQoSSchedulingTrafficClass>7</KmBridgeExtQoSSchedulingTrafficClass>
+<KmBridgeExtQoSSchedulingAlgorithm>Strict</KmBridgeExtQoSSchedulingAlgorithm>
+<KmBridgeExtQoSSchedulingWrrWeight>1</KmBridgeExtQoSSchedulingWrrWeight>
+</Entry>
+</KmBridgeExtQoSSchedulingProfileTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmIfExtMib" protection="protected">
+<MOB_CFG_DB name="kmIfExtRateLimiterTable" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmIfExtRateLimiterTable_DB>
+</KmIfExtRateLimiterTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmMplsQosExtMib" protection="protected">
+<MOB_CFG_DB name="KmMplsQosExtPhb" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmMplsQosExtPhbTable_DB>
+<Entry>
+<KmMplsQosExtPhbPhb>Be</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Be</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af11</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af1</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af12</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af1</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af13</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af1</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af21</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af2</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af22</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af2</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af23</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af2</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af31</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af3</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af32</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af3</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af33</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af3</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af41</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af4</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af42</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af4</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Af43</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af4</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Va</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Ef</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Ef</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Ef</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Cs1</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af1</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Cs2</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af2</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Cs3</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af3</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Cs4</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Af4</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Cs5</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Ef</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Cs6</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Cs6</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+<Entry>
+<KmMplsQosExtPhbPhb>Cs7</KmMplsQosExtPhbPhb>
+<KmMplsQosExtPhbPsc>Cs7</KmMplsQosExtPhbPsc>
+<KmMplsQosExtPhbDp>Low</KmMplsQosExtPhbDp>
+</Entry>
+</KmMplsQosExtPhbTable_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="KmMplsQosExtPscTrafficClass" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="qosEthPortTable" content="config" committed="1970-01-01T00:33:59" seq-nr="0"><KmMplsQosExtEthPortTable_DB>
+</KmMplsQosExtEthPortTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmQosMib" protection="protected">
+<MOB_CFG_DB name="KmQosDscpPhb" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmUniEvcMib" protection="protected">
+<MOB_CFG_DB name="kmEvcPerUniCfgTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="kmUniCfgTable" content="config" committed="2020-05-22T07:34:29" seq-nr="0"><KmUniCfgTable_DB>
+<Entry>
+<KmUniCfgIfIndex>110050000</KmUniCfgIfIndex>
+<KmUniCfgCosType>Pcp</KmUniCfgCosType>
+<KmUniCfgDefaultPriority>0</KmUniCfgDefaultPriority>
+<KmUniCfgAdminId>0</KmUniCfgAdminId>
+<KmUniCfgAdminName></KmUniCfgAdminName>
+<KmUniCfgBwEnforcement>false</KmUniCfgBwEnforcement>
+<KmUniCfgCir>0</KmUniCfgCir>
+<KmUniCfgCbs>0</KmUniCfgCbs>
+<KmUniCfgEir>0</KmUniCfgEir>
+<KmUniCfgEbs>0</KmUniCfgEbs>
+<KmUniCfgCouplingFlag>1</KmUniCfgCouplingFlag>
+<KmUniCfgColorMode>ColorBlind</KmUniCfgColorMode>
+</Entry>
+<Entry>
+<KmUniCfgIfIndex>110010000</KmUniCfgIfIndex>
+<KmUniCfgCosType>Pcp</KmUniCfgCosType>
+<KmUniCfgDefaultPriority>0</KmUniCfgDefaultPriority>
+<KmUniCfgAdminId>0</KmUniCfgAdminId>
+<KmUniCfgAdminName></KmUniCfgAdminName>
+<KmUniCfgBwEnforcement>false</KmUniCfgBwEnforcement>
+<KmUniCfgCir>0</KmUniCfgCir>
+<KmUniCfgCbs>0</KmUniCfgCbs>
+<KmUniCfgEir>0</KmUniCfgEir>
+<KmUniCfgEbs>0</KmUniCfgEbs>
+<KmUniCfgCouplingFlag>1</KmUniCfgCouplingFlag>
+<KmUniCfgColorMode>ColorBlind</KmUniCfgColorMode>
+</Entry>
+</KmUniCfgTable_DB>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="snmpAgent" aptype="static" motype="ne.snmpagent" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="snmpCommunityMIB" protection="protected">
+<MOB_CFG_DB name="snmpCommunityTable" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="snmpMIB" protection="protected">
+<MOB_CFG_DB name="snmpEnableAuthenTraps" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="sysContact" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="sysLocation" content="config" committed="2020-05-29T12:30:50" seq-nr="0"><SysLocation>JPAKL Tuzla</SysLocation>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="sysName" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="snmpNotificationMIB" protection="protected">
+<MOB_CFG_DB name="snmpNotifyFilterProfileTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="snmpNotifyFilterTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="snmpNotifyTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="snmpTargetMIB" protection="protected">
+<MOB_CFG_DB name="snmpTargetAddrTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="snmpTargetParamsTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="snmpUsmMIB" protection="protected">
+<MOB_CFG_DB name="snmpUsmUserTable" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="snmpVacmMIB" protection="protected">
+<MOB_CFG_DB name="snmpVacmAccessTable" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="snmpVacmGroupTable" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="snmpVacmViewTable" content="default" committed="1970-01-01T00:00:00" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="subif" aptype="static" motype="subif" protection="protected" created="1970-01-01T00:00:59" seq-nr="0">
+<MOB_CFG_MD name="ifMIB" protection="protected">
+<MOB_CFG_DB name="ifStackTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="kmEthPortMib" protection="protected">
+<MOB_CFG_DB name="subIfTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="tdmConnections" aptype="static" motype="ne.tdmmgmt" protection="protected" created="1970-01-01T00:00:57" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="netdmmgmt_cons" content="config" committed="2023-05-16T15:25:52" seq-nr="0"><ConnectionsDb>
+<cons>
+<con>
+<cIndex>1</cIndex>
+<aEndWork>/unit-17/port-1/chan-1</aEndWork>
+<aEndProt>/unit-18/port-1/chan-1</aEndProt>
+<zEnd>/unit-1/port-1</zEnd>
+<layerRate>p0_nc</layerRate>
+<n>1</n>
+<directionality>bidirectional</directionality>
+<prot>true</prot>
+<label1></label1>
+<label2></label2>
+</con>
+<con>
+<cIndex>2</cIndex>
+<aEndWork>/unit-18/port-1/chan-2</aEndWork>
+<aEndProt>/unit-17/port-1/chan-2</aEndProt>
+<zEnd>/unit-2/port-1</zEnd>
+<layerRate>p0_nc</layerRate>
+<n>1</n>
+<directionality>bidirectional</directionality>
+<prot>true</prot>
+<label1></label1>
+<label2></label2>
+</con>
+<con>
+<cIndex>3</cIndex>
+<aEndWork>/unit-17/port-1/chan-3</aEndWork>
+<aEndProt></aEndProt>
+<zEnd>/unit-1/port-2</zEnd>
+<layerRate>p0_nc</layerRate>
+<n>1</n>
+<directionality>bidirectional</directionality>
+<prot>false</prot>
+<label1></label1>
+<label2></label2>
+</con>
+<con>
+<cIndex>4</cIndex>
+<aEndWork>/unit-17/port-1/chan-5</aEndWork>
+<aEndProt></aEndProt>
+<zEnd>/unit-7/port-5</zEnd>
+<layerRate>p0_nc</layerRate>
+<n>25</n>
+<directionality>bidirectional</directionality>
+<prot>false</prot>
+<label1></label1>
+<label2></label2>
+</con>
+<con>
+<cIndex>5</cIndex>
+<aEndWork>/unit-18/port-1/chan-5</aEndWork>
+<aEndProt></aEndProt>
+<zEnd>/unit-8/port-5</zEnd>
+<layerRate>p0_nc</layerRate>
+<n>25</n>
+<directionality>bidirectional</directionality>
+<prot>false</prot>
+<label1></label1>
+<label2></label2>
+</con>
+<con>
+<cIndex>7</cIndex>
+<aEndWork>/unit-18/port-1/chan-31</aEndWork>
+<aEndProt></aEndProt>
+<zEnd>/managementNetwork/tdmInterfaces/ppp-2</zEnd>
+<layerRate>p0_nc</layerRate>
+<n>1</n>
+<directionality>bidirectional</directionality>
+<prot>false</prot>
+<label1>ECC</label1>
+<label2></label2>
+</con>
+<con>
+<cIndex>8</cIndex>
+<aEndWork>/unit-17/port-1/chan-4</aEndWork>
+<aEndProt></aEndProt>
+<zEnd>/managementNetwork/tdmInterfaces/ppp-3</zEnd>
+<layerRate>p0_nc</layerRate>
+<n>1</n>
+<directionality>bidirectional</directionality>
+<prot>false</prot>
+<label1>ECC</label1>
+<label2></label2>
+</con>
+</cons>
+</ConnectionsDb>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="netdmmgmt_pbus" content="config" committed="1970-01-01T00:17:50" seq-nr="0"><PbusDb>
+<pbusUnits>
+<pbusUnit>
+<unitNbr>1</unitNbr>
+<pbusNbr>0</pbusNbr>
+</pbusUnit>
+<pbusUnit>
+<unitNbr>17</unitNbr>
+<pbusNbr>1</pbusNbr>
+</pbusUnit>
+<pbusUnit>
+<unitNbr>18</unitNbr>
+<pbusNbr>2</pbusNbr>
+</pbusUnit>
+<pbusUnit>
+<unitNbr>2</unitNbr>
+<pbusNbr>3</pbusNbr>
+</pbusUnit>
+<pbusUnit>
+<unitNbr>7</unitNbr>
+<pbusNbr>4</pbusNbr>
+</pbusUnit>
+<pbusUnit>
+<unitNbr>8</unitNbr>
+<pbusNbr>5</pbusNbr>
+</pbusUnit>
+<pbusUnit>
+<unitNbr>0</unitNbr>
+<pbusNbr>32</pbusNbr>
+</pbusUnit>
+</pbusUnits>
+</PbusDb>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-1" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T21:25:25" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>TUEM1 R1E</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-2" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T21:25:25" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>TUEM1 R1E</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-3" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-4" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T21:25:25" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>TUGE1 R1D</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-5" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T21:25:25" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>TUGE1 R1D</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-6" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-7" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T21:36:27" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>TUDA1 R1F</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-8" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T21:36:27" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>TUDA1 R1F</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-9" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-10" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-11" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="config" committed="1970-01-01T00:35:15" seq-nr="0"><ifMapTable>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>1</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>110010000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>10000000000</ifSpeed>
+<ifPhyAddress>0002A3A409DD</ifPhyAddress>
+<bridgePortIndex>1101</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>24</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>2</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>110020000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>10000000000</ifSpeed>
+<ifPhyAddress>0002A3A409DC</ifPhyAddress>
+<bridgePortIndex>1102</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>25</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>3</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>110030000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409C7</ifPhyAddress>
+<bridgePortIndex>1103</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>3</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>4</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>110040000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409C6</ifPhyAddress>
+<bridgePortIndex>1104</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>2</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>5</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>110050000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409C5</ifPhyAddress>
+<bridgePortIndex>1105</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>1</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>51</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000100</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409CB</ifPhyAddress>
+<bridgePortIndex>1151</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>7</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>52</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000200</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409C9</ifPhyAddress>
+<bridgePortIndex>1152</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>5</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>53</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000300</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409CF</ifPhyAddress>
+<bridgePortIndex>1153</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>11</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>54</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000400</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409CD</ifPhyAddress>
+<bridgePortIndex>1154</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>9</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>55</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000500</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D3</ifPhyAddress>
+<bridgePortIndex>1155</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>15</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>56</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000600</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D1</ifPhyAddress>
+<bridgePortIndex>1156</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>13</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>57</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000700</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D7</ifPhyAddress>
+<bridgePortIndex>1157</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>19</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>58</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000800</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D5</ifPhyAddress>
+<bridgePortIndex>1158</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>17</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>59</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119000900</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409DB</ifPhyAddress>
+<bridgePortIndex>1159</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>23</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>60</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D9</ifPhyAddress>
+<bridgePortIndex>1160</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>21</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>62</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001200</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409DA</ifPhyAddress>
+<bridgePortIndex>1162</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>22</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>63</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001300</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D8</ifPhyAddress>
+<bridgePortIndex>1163</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>20</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>64</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001400</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D4</ifPhyAddress>
+<bridgePortIndex>1164</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>16</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>65</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001500</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D6</ifPhyAddress>
+<bridgePortIndex>1165</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>18</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>66</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001600</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D0</ifPhyAddress>
+<bridgePortIndex>1166</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>12</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>67</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001700</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409D2</ifPhyAddress>
+<bridgePortIndex>1167</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>14</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>68</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001800</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409CC</ifPhyAddress>
+<bridgePortIndex>1168</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>8</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>69</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119001900</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409CE</ifPhyAddress>
+<bridgePortIndex>1169</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>10</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>70</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119002000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409C8</ifPhyAddress>
+<bridgePortIndex>1170</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>4</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>71</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119002100</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409CA</ifPhyAddress>
+<bridgePortIndex>1171</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>6</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>81</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119005100</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>10000000000</ifSpeed>
+<ifPhyAddress>0002A3A409DE</ifPhyAddress>
+<bridgePortIndex>1181</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>26</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>83</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119005300</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>10000000000</ifSpeed>
+<ifPhyAddress>0002A3A409DF</ifPhyAddress>
+<bridgePortIndex>1183</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>27</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>11</slotNbr>
+<portNbr>99</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>119009900</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A409C0</ifPhyAddress>
+<bridgePortIndex>1199</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>16</deviceNbr>
+<portNbr>0</portNbr>
+</ref_hw>
+</ref_entry>
+</ifMapTable>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T00:35:15" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>COGE5 R2D</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="neController" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-12" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-13" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="config" committed="1970-01-01T00:49:05" seq-nr="0"><ifMapTable>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>1</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>130010000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>10000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A1D</ifPhyAddress>
+<bridgePortIndex>1301</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>24</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>2</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>130020000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>10000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A1C</ifPhyAddress>
+<bridgePortIndex>1302</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>25</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>3</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>130030000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A07</ifPhyAddress>
+<bridgePortIndex>1303</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>3</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>4</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>130040000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A06</ifPhyAddress>
+<bridgePortIndex>1304</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>2</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>5</portNbr>
+<isSwitchPort>true</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>130050000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A05</ifPhyAddress>
+<bridgePortIndex>1305</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>1</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>51</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000100</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A0B</ifPhyAddress>
+<bridgePortIndex>1351</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>7</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>52</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000200</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A09</ifPhyAddress>
+<bridgePortIndex>1352</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>5</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>53</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000300</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A0F</ifPhyAddress>
+<bridgePortIndex>1353</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>11</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>54</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000400</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A0D</ifPhyAddress>
+<bridgePortIndex>1354</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>9</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>55</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000500</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A13</ifPhyAddress>
+<bridgePortIndex>1355</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>15</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>56</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000600</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A11</ifPhyAddress>
+<bridgePortIndex>1356</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>13</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>57</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000700</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A17</ifPhyAddress>
+<bridgePortIndex>1357</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>19</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>58</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000800</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A15</ifPhyAddress>
+<bridgePortIndex>1358</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>17</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>59</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139000900</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A1B</ifPhyAddress>
+<bridgePortIndex>1359</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>23</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>60</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A19</ifPhyAddress>
+<bridgePortIndex>1360</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>21</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>61</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001100</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A18</ifPhyAddress>
+<bridgePortIndex>1361</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>20</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>62</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001200</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A1A</ifPhyAddress>
+<bridgePortIndex>1362</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>22</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>64</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001400</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A14</ifPhyAddress>
+<bridgePortIndex>1364</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>16</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>65</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001500</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A16</ifPhyAddress>
+<bridgePortIndex>1365</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>18</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>66</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001600</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A10</ifPhyAddress>
+<bridgePortIndex>1366</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>12</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>67</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001700</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A12</ifPhyAddress>
+<bridgePortIndex>1367</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>14</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>68</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001800</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A0C</ifPhyAddress>
+<bridgePortIndex>1368</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>8</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>69</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139001900</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A0E</ifPhyAddress>
+<bridgePortIndex>1369</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>10</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>70</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139002000</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A08</ifPhyAddress>
+<bridgePortIndex>1370</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>4</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>71</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139002100</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A0A</ifPhyAddress>
+<bridgePortIndex>1371</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>6</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>81</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139005100</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>10000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A1E</ifPhyAddress>
+<bridgePortIndex>1381</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>26</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>83</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139005300</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>10000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A1F</ifPhyAddress>
+<bridgePortIndex>1383</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>27</portNbr>
+</ref_hw>
+</ref_entry>
+<ref_entry>
+<ref_physical>
+<slotNbr>13</slotNbr>
+<portNbr>99</portNbr>
+<isSwitchPort>false</isSwitchPort>
+<originSlot>0</originSlot>
+</ref_physical>
+<ref_snmp>
+<ifIndex>139009900</ifIndex>
+<ifType>6</ifType>
+<ifSpeed>1000000000</ifSpeed>
+<ifPhyAddress>0002A3A40A00</ifPhyAddress>
+<bridgePortIndex>1399</bridgePortIndex>
+</ref_snmp>
+<ref_mob>
+<ifApAddr></ifApAddr>
+</ref_mob>
+<ref_hw>
+<deviceNbr>20</deviceNbr>
+<portNbr>0</portNbr>
+</ref_hw>
+</ref_entry>
+</ifMapTable>
+
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T00:49:05" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>COGE5 R2D</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_AP name="neController" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-14" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-15" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-16" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-17" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T21:45:41" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>SELI8 R1D</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-18" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="1970-01-01T21:45:41" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>SELI8 R1D</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-19" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-20" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="2020-01-31T11:42:26" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>ETAG1 R1G</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+<MOB_CFG_AP name="unit-21" aptype="static" motype="unit.holder.basic" protection="protected" created="1970-01-01T00:00:56" seq-nr="0">
+<MOB_CFG_MD name="cfgm" protection="protected">
+<MOB_CFG_DB name="ifMapTable" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="fm" protection="protected">
+<MOB_CFG_DB name="NSW" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="PWRSVE" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UIC" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAS" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+<MOB_CFG_DB name="UNAV" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+<MOB_CFG_MD name="main" protection="protected">
+<MOB_CFG_DB name="equipassignstatus" content="config" committed="2020-01-31T11:42:26" seq-nr="0"><MainEquipAssign_DB>
+<state>assigned</state>
+<assignedHw>ETAG1 R1G</assignedHw>
+<isHwOnly>false</isHwOnly>
+</MainEquipAssign_DB>
+
+</MOB_CFG_DB>
+<MOB_CFG_DB name="labels" content="default" committed="1970-01-01T00:33:59" seq-nr="0">
+</MOB_CFG_DB>
+</MOB_CFG_MD>
+</MOB_CFG_AP>
+</MOB_CFG_AP>
+</MOB_CFG_FILE>
