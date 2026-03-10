@@ -121,7 +121,7 @@ STATIC_URL = "static/"
 
 EXEL_FILE = BASE_DIR / "Konekcije.xlsx"
 
-CONFIGURATIONS_PATH = BASE_DIR / "konekcije"
+CONFIGURATIONS_PATH = BASE_DIR / "konfiguracije"
 
 ALLOWED_FOLDERS = [
     "unit-2",

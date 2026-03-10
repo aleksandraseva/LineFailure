@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from Lines.models.Connection import Connection
-from Lines.management.commands import parseExcel
+from Lines.services import parseExcel
 
 connections = None
 

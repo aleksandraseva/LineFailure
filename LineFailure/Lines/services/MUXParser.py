@@ -10,12 +10,14 @@ def find_all_service():
             for root, dirs, files in os.walk(path):
                 for dir in dirs:
                     if dir in settings.ALLOWED_FOLDERS:
-                        for folder in files:
-                            if file == "common_config.xml":
-                                path_config_xml = os.path.join(root, file)
-                                elements = MUXParser.find_all_ports(path_config_xml)
-                                for element in elements:
-                                    print(element)
+                        path = os.path.join(root, dir)
+                        for root, dirs, files in os.walk(path):
+                            for file in files:
+                                if file == "common_config.xml":
+                                    path_config_xml = os.path.join(root, file)
+                                    elements = find_all_ports(path_config_xml, folder)
+                                    for element in elements:
+                                        print(element)
 
 
 def find_all_ports(config_xml, location):
