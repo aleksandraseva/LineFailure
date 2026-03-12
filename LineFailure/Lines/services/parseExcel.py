@@ -7,8 +7,6 @@ from Lines.models.Connection import Connection
 
 def find_connection():
     try:
-        j = 0
-        print(os.path)
         file = os.path.join("Konekcije.xlsx")
         wb = load_workbook(file, read_only=True)
         sheet = wb.active
@@ -35,9 +33,7 @@ def find_connection():
                     )
                     data = find_locations.findall(locations)
                     location1 = data[0]
-                    location2 = data[1]  # ovdje ima red gdje nema
-
-                    print(j)
+                    location2 = data[1]
 
                     Connection(
                         first_location=location1,
@@ -47,7 +43,6 @@ def find_connection():
                         second_unit=unit2,
                         second_port=port2,
                     ).save()
-                    j = j + 1
 
     except Exception as e:
         print(e)

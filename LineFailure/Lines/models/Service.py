@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Service(models.Model):
-    name = models.FloatField(unique=True)
+    name = models.CharField(unique=False)
 
 
 class Point(models.Model):
