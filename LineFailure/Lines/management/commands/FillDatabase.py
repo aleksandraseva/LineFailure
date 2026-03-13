@@ -1,8 +1,10 @@
 from django.core.management.base import BaseCommand
-from Lines.services.MUXParser import find_all_service
+from Lines.services import MUXParser, parseExcel, AddLine
 
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         print("aa")
-        find_all_service()
+        MUXParser.find_all_service()
+        parseExcel.find_connection()
+        AddLine.add_line()

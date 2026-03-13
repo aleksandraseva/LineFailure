@@ -71,62 +71,67 @@ def find_next_point(element, location, service):
 
 
 def get_seli_ports(location, unit, port, chan, route):
-    next_location = None
-    next_unit = None
-    next_port = None
-    next_connection = Connection.objects.filter(
-        Q(first_location=location, first_unit=unit, first_port=port)
-        | Q(second_location=location, second_unit=unit, second_port=port)
-    )
-    for connection in next_connection:
-        if (
-            connection.first_location == location
-            and connection.first_unit == unit
-            and connection.first_port == port
-        ):
-            next_location = connection.second_location
-            next_unit = connection.second_unit
-            next_port = connection.second_port
-        else:
-            next_location = connection.first_location
-            next_unit = connection.first_unit
-            next_port = connection.first_port
-    if next_location and next_port and next_unit:
-        xml_config = get_config(next_location, next_unit)
-        if xml_config is not None:
-            port_xml = get_port(xml_config, next_port)
-            line_name = get_port_label(port_xml)
-            point = Point(location=next_location, line_name=line_name)
-            point.save()
-            route.points.add(point)
-            if not is_service(port_xml):
-                next_port_data = []
-                chan_xml = get_chan_port(port_xml, chan)
-                cfgm_tag = chan_xml.find("./MOB_CFG_MD[@name='cfgm']")
-                if cfgm_tag is not None:
-                    for remote_tag in cfgm_tag.findall(
-                        ".//remoteCtpDataList/remoteCtpData"
-                    ):
-                        ctp_ref = remote_tag.find("./ctpRef")
-                        next_port_data.append(ctp_ref.text)
-                for data in next_port_data:
-                    port_element = data.split("/")
-                    next_config = find_config_unit_name(next_location, port_element[1])
-                    next_port = get_port(next_config, port_element[2])
-                    line_name = get_port_label(next_port)
-                    point = Point(location=next_location, line_name=line_name or "")
-                    point.save()
-                    route.points.add(point)
-                    if not is_service(next_port):
-                        get_seli_ports(
-                            next_location,
-                            port_element[1],
-                            port_element[2],
-                            port_element[3],
-                            route,
+    try:
+        next_location = None
+        next_unit = None
+        next_port = None
+        next_connection = Connection.objects.filter(
+            Q(first_location=location, first_unit=unit, first_port=port)
+            | Q(second_location=location, second_unit=unit, second_port=port)
+        )
+        for connection in next_connection:
+            if (
+                connection.first_location == location
+                and connection.first_unit == unit
+                and connection.first_port == port
+            ):
+                next_location = connection.second_location
+                next_unit = connection.second_unit
+                next_port = connection.second_port
+            else:
+                next_location = connection.first_location
+                next_unit = connection.first_unit
+                next_port = connection.first_port
+        if next_location and next_port and next_unit:
+            xml_config = get_config(next_location, next_unit)
+            if xml_config is not None:
+                port_xml = get_port(xml_config, next_port)
+                line_name = get_port_label(port_xml)
+                point = Point(location=next_location, line_name=line_name)
+                point.save()
+                route.points.add(point)
+                if not is_service(port_xml):
+                    next_port_data = []
+                    chan_xml = get_chan_port(port_xml, chan)
+                    cfgm_tag = chan_xml.find("./MOB_CFG_MD[@name='cfgm']")
+                    if cfgm_tag is not None:
+                        for remote_tag in cfgm_tag.findall(
+                            ".//remoteCtpDataList/remoteCtpData"
+                        ):
+                            ctp_ref = remote_tag.find("./ctpRef")
+                            next_port_data.append(ctp_ref.text)
+                    for data in next_port_data:
+                        port_element = data.split("/")
+                        next_config = find_config_unit_name(
+                            next_location, port_element[1]
                         )
-                    else:
-                        return
+                        next_port = get_port(next_config, port_element[2])
+                        line_name = get_port_label(next_port)
+                        point = Point(location=next_location, line_name=line_name or "")
+                        point.save()
+                        route.points.add(point)
+                        if not is_service(next_port):
+                            get_seli_ports(
+                                next_location,
+                                port_element[1],
+                                port_element[2],
+                                port_element[3],
+                                route,
+                            )
+                        else:
+                            return
+    except Exception as e:
+        print(e)
 
 
 def is_service(port_element):
