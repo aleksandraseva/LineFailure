@@ -1,0 +1,32 @@
+<form method="post">
+    {% csrf_token %}
+
+    <div style="display:flex">
+
+        <!-- LIJEVA STRANA: checkbox lista -->
+        <div style="width:30%; border-right:1px solid #ccc; padding:10px">
+
+            {% for line in line_name %}
+                <div style="margin-bottom:5px">
+                    <input type="checkbox" name="lines" value="{{ line }}"
+                        {% if line in selected_lines %}checked{% endif %}>
+                    {{ line }}
+                </div>
+            {% endfor %}
+
+            <button type="submit">Prikaži</button>
+        </div>
+
+        <!-- CENTRALNI DIO: prikaz servisa -->
+        <div style="width:70%; padding:20px">
+            <h3>Servisi</h3>
+            {% for item in services_data %}
+                <p>{{ item.service.name }} – {{ item.remaining_routes_count }} ruta/e</p>
+            {% empty %}
+                <p>Nema servisa za odabrane linije.</p>
+            {% endfor %}
+        </div>
+
+    </div>
+
+</form>
