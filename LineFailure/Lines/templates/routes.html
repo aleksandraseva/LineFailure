@@ -1,0 +1,14 @@
+{% for service in services %}
+  <h2>{{ service.name }} ({{ service.location }})</h2>
+
+  {% for route in service.routes.all %}
+    <h3>Route {{ route.id }}</h3>
+
+    <ul>
+      {% for point in route.points.all %}
+        <li>{{ point.location }} - {{ point.line_name }} - {{point.unit}} - {{point.port}} - {{point.chan}}</li>
+      {% endfor %}
+    </ul>
+
+  {% endfor %}
+{% endfor %}

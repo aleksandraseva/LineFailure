@@ -22,6 +22,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("Lines.urls")),
     path("debug/", include("Lines.urls")),
-    path("path/", include("Lines.urls")),
-    path("lines/", include("Lines.urls"))
+    path("lines/", include("Lines.urls")),
+    path("routes/", include("Lines.urls")),
 ]

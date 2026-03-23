@@ -1,10 +1,12 @@
 from django.core.management.base import BaseCommand
-from Lines.services import MUXParser, parseExcel, AddLine
+from Lines.services.MUXParser import find_all_service
+from Lines.services.parseExcel import find_connection
 
 
 class Command(BaseCommand):
+    help = "Fill database"
+
     def handle(self, *args, **kwargs):
-        print("aa")
-        MUXParser.find_all_service()
-        parseExcel.find_connection()
-        AddLine.add_line()
+
+        find_connection()
+        find_all_service()

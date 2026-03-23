@@ -2,12 +2,16 @@ from django.db import models
 
 
 class Service(models.Model):
-    name = models.CharField(unique=False)
+    name = models.CharField()
+    location = models.CharField()
 
 
 class Point(models.Model):
     location = models.CharField()
     line_name = models.CharField()
+    port = models.CharField()
+    unit = models.CharField()
+    chan = models.CharField()
 
 
 class Route(models.Model):

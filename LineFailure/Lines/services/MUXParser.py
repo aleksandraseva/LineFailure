@@ -48,7 +48,8 @@ def find_all_service():
                                                                     uselLabel_tag.text
                                                                 )
                                                                 service = Service(
-                                                                    name=role
+                                                                    name=role,
+                                                                    location=folder,
                                                                 )
                                                                 service.save()
                                                                 print(role)
@@ -96,13 +97,21 @@ def get_seli_ports(location, unit, port, chan, route):
             xml_config = get_config(next_location, next_unit)
             if xml_config is not None:
                 port_xml = get_port(xml_config, next_port)
+                chan_xml = get_chan_port(port_xml, chan)
                 line_name = get_port_label(port_xml)
-                point = Point(location=next_location, line_name=line_name)
+                point = Point(
+                    location=next_location,
+                    line_name=line_name,
+                    port=next_port,
+                    unit=next_unit,
+                    chan=get_chan_name(chan_xml),
+                )
                 point.save()
+                print("ROUTE ID:", route.id)
                 route.points.add(point)
+                print("ROUTE ID poslije:", route.id)
                 if not is_service(port_xml):
                     next_port_data = []
-                    chan_xml = get_chan_port(port_xml, chan)
                     cfgm_tag = chan_xml.find("./MOB_CFG_MD[@name='cfgm']")
                     if cfgm_tag is not None:
                         for remote_tag in cfgm_tag.findall(
@@ -117,9 +126,17 @@ def get_seli_ports(location, unit, port, chan, route):
                         )
                         next_port = get_port(next_config, port_element[2])
                         line_name = get_port_label(next_port)
-                        point = Point(location=next_location, line_name=line_name or "")
+                        point = Point(
+                            location=next_location,
+                            line_name=line_name or "",
+                            port=port_element[2],
+                            unit=port_element[1],
+                            chan=port_element[3],
+                        )
                         point.save()
+                        print("ROUTE ID:", route.id)
                         route.points.add(point)
+                        print("ROUTE ID poslije:", route.id)
                         if not is_service(next_port):
                             get_seli_ports(
                                 next_location,
@@ -163,9 +180,18 @@ def get_first_point(element, location, service):
                 line_name = get_port_label(port)
                 route = Route(service=service)
                 route.save()
-                point = Point(location=location, line_name=line_name or "")
+                point = Point(
+                    location=location,
+                    line_name=line_name or "",
+                    port=port_element[2],
+                    unit=port_element[1],
+                    chan=port_element[3],
+                )
                 point.save()
+                print("service ID:", service.id)
+                print("ROUTE ID:", route.id)
                 route.points.add(point)
+                print("ROUTE ID: poslije", route.id)
                 return_data.append(
                     [port_element[1], port_element[2], port_element[3], route]
                 )
@@ -284,6 +310,22 @@ def get_chan_port(port_element, chan):
         for element in port_element.findall(f".//MOB_CFG_AP[@name='{chan}']"):
             if element is not None:
                 return element
+    except Exception as e:
+        print(e)
+
+
+def get_port_name(element):
+    try:
+        port_name = element.attrib.get("name", "")
+        return port_name
+    except Exception as e:
+        print(e)
+
+
+def get_chan_name(chan):
+    try:
+        chan_name = chan.attrib.get("name", "")
+        return chan_name
     except Exception as e:
         print(e)
 

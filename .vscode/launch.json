@@ -12,6 +12,17 @@
             ],
             "django": true,
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Django: Management Command",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/LineFailure/manage.py",
+            "args": [
+                "FillDatabase"
+            ],
+            "django": true,
+            "justMyCode": true
         }
     ]
 }

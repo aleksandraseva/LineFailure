@@ -20,8 +20,12 @@
         <!-- CENTRALNI DIO: prikaz servisa -->
         <div style="width:70%; padding:20px">
             <h3>Servisi</h3>
-            {% for item in services_data %}
+            {% for location, items in grouped_services.items %}
+                <h4>{{ location }}</h4>
+
+            {% for item in items %}
                 <p>{{ item.service.name }} – {{ item.remaining_routes_count }} ruta/e</p>
+            {% endfor %}
             {% empty %}
                 <p>Nema servisa za odabrane linije.</p>
             {% endfor %}
