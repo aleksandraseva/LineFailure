@@ -19,3 +19,4 @@ class Route(models.Model):
         Service, on_delete=models.CASCADE, related_name="routes"
     )
     points = models.ManyToManyField(Point)
+    role = models.CharField()
