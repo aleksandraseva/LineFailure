@@ -53,6 +53,17 @@ def find_all_service():
                                                                 )
                                                                 service.save()
                                                                 print(role)
+                                                                print(
+                                                                    f"lokacija: {folder}"
+                                                                )
+                                                                if (
+                                                                    role
+                                                                    == "port-2: EME/B_121.500"
+                                                                    or role
+                                                                    == "port-2:EME/B_121.500"
+                                                                ):
+                                                                    print("prekid")
+                                                                    continue
                                                                 find_next_point(
                                                                     element,
                                                                     folder,
@@ -72,7 +83,14 @@ def find_next_point(element, location, service):
 
 
 def get_seli_ports(
-    location, unit, port, chan, route, previous_unit=None, previous_ports=None
+    location,
+    unit,
+    port,
+    chan,
+    route,
+    previous_unit=None,
+    previous_ports=None,
+    previous_location=None,
 ):
     try:
         xml_config = get_config(location, unit)
@@ -102,7 +120,11 @@ def get_seli_ports(
                     port_element = data.split("/")
                     next_config = find_config_unit_name(location, port_element[1])
                     next_port = get_port(next_config, port_element[2])
-                    if is_conf_port(next_port):
+                    if (
+                        is_conf_port(next_port)
+                        and port_element[1] != previous_unit
+                        and port_element[2] != previous_ports
+                    ):
                         get_seli_ports(
                             location=location,
                             unit=port_element[1],
@@ -111,10 +133,17 @@ def get_seli_ports(
                             route=route,
                             previous_unit=unit,
                             previous_ports=port,
+                            previous_location=location,
                         )
-                    elif is_service(next_port) or (
+                    elif (
+                        is_service(next_port)
+                        and previous_unit is None
+                        and previous_ports is None
+                        and previous_location is None
+                    ) or (
                         port_element[1] == previous_unit
                         and port_element[2] == previous_ports
+                        and location == previous_location
                     ):
                         next_location = None
                         next_unit = None
@@ -149,7 +178,15 @@ def get_seli_ports(
                                 route=route,
                                 previous_unit=unit,
                                 previous_ports=port,
+                                previous_location=location,
                             )
+                    elif (
+                        is_service(next_port)
+                        and previous_unit is not None
+                        and previous_ports is not None
+                        and previous_location is not None
+                    ):
+                        return
                     else:
                         get_seli_ports(
                             location=location,
@@ -159,9 +196,10 @@ def get_seli_ports(
                             route=route,
                             previous_unit=unit,
                             previous_ports=port,
+                            previous_location=location,
                         )
             elif is_conf_port(port_xml):
-                parts = get_parts_conf(next_port)
+                parts = get_parts_conf(port_xml)
                 for part in parts:
                     role, data = get_role_part(part)
                     role = get_role(part)
@@ -177,6 +215,7 @@ def get_seli_ports(
                             route=role_route,
                             previous_unit=unit,
                             previous_ports=port,
+                            previous_location=location,
                         )
             else:
                 return
