@@ -1,7 +1,9 @@
+import hashlib
 import os
 import xml.etree.cElementTree as ET
 from django.conf import settings
 from django.db.models import Q
+from django.db import transaction
 
 from Lines.models.Service import Service, Point, Route
 from Lines.models.Connection import Connection
@@ -186,7 +188,16 @@ def get_seli_ports(
                         and previous_ports is not None
                         and previous_location is not None
                     ):
-                        return
+                        line_name = get_port_label(next_port)
+                        point = Point(
+                            location=location,
+                            line_name=line_name or "",
+                            port=port_element[2],
+                            unit=port_element[1],
+                            chan="",
+                        )
+                        point.save()
+                        route.points.add(point)
                     else:
                         get_seli_ports(
                             location=location,
@@ -448,6 +459,29 @@ def get_role_part(conf_element):
                 return (role_tag.text, ports)
     except Exception as e:
         print(e)
+
+
+def generate_signature(service_id, role, points_ids):
+    data = f"{service_id}-{role}-{'-'.join(map(str, sorted(points_ids)))}"
+    return hashlib.sha256(data.encode()).hexdigest()
+
+
+def finalize_route(route):
+    points_ids = list(route.points.values_list("id", flat=True))
+    signature = generate_signature(route.service_id, route.role, points_ids)
+
+    with transaction.atomic():
+        existing = Route.objects.filter(signature=signature).first()
+
+        if existing:
+            # već postoji ista ruta → briši ovu novu
+            route.delete()
+            return existing
+
+        # nema duplikata → upiši signature
+        route.signature = signature
+        route.save()
+        return route
 
 
 if __name__ == "__main__":
