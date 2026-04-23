@@ -58,14 +58,6 @@ def find_all_service():
                                                                 print(
                                                                     f"lokacija: {folder}"
                                                                 )
-                                                                if (
-                                                                    role
-                                                                    == "port-2: EME/B_121.500"
-                                                                    or role
-                                                                    == "port-2:EME/B_121.500"
-                                                                ):
-                                                                    print("prekid")
-                                                                    continue
                                                                 find_next_point(
                                                                     element,
                                                                     folder,
@@ -100,14 +92,13 @@ def get_seli_ports(
             port_xml = get_port(xml_config, port)
             chan_xml = get_chan_port(port_xml, chan)
             line_name = get_port_label(port_xml)
-            point = Point(
+            point, created = Point.objects.get_or_create(
                 location=location,
                 line_name=line_name or "",
                 port=port,
                 unit=unit,
                 chan=get_chan_name(chan_xml) if chan != "" else "",
             )
-            point.save()
             route.points.add(point)
             if not is_service(port_xml):
                 next_port_data = []
@@ -189,14 +180,13 @@ def get_seli_ports(
                         and previous_location is not None
                     ):
                         line_name = get_port_label(next_port)
-                        point = Point(
+                        point, created = Point.objects.get_or_create(
                             location=location,
                             line_name=line_name or "",
                             port=port_element[2],
                             unit=port_element[1],
                             chan="",
                         )
-                        point.save()
                         route.points.add(point)
                     else:
                         get_seli_ports(
@@ -275,14 +265,13 @@ def get_first_point(element, location, service):
                 line_name = get_port_label(port)
                 route = Route(service=service, role="")
                 route.save()
-                point = Point(
+                point, created = Point.objects.get_or_create(
                     location=location,
                     line_name=line_name or "",
                     port=port_element[2],
                     unit=port_element[1],
                     chan=port_element[3],
                 )
-                point.save()
                 print("service ID:", service.id)
                 print("ROUTE ID:", route.id)
                 route.points.add(point)
@@ -459,29 +448,6 @@ def get_role_part(conf_element):
                 return (role_tag.text, ports)
     except Exception as e:
         print(e)
-
-
-def generate_signature(service_id, role, points_ids):
-    data = f"{service_id}-{role}-{'-'.join(map(str, sorted(points_ids)))}"
-    return hashlib.sha256(data.encode()).hexdigest()
-
-
-def finalize_route(route):
-    points_ids = list(route.points.values_list("id", flat=True))
-    signature = generate_signature(route.service_id, route.role, points_ids)
-
-    with transaction.atomic():
-        existing = Route.objects.filter(signature=signature).first()
-
-        if existing:
-            # već postoji ista ruta → briši ovu novu
-            route.delete()
-            return existing
-
-        # nema duplikata → upiši signature
-        route.signature = signature
-        route.save()
-        return route
 
 
 if __name__ == "__main__":

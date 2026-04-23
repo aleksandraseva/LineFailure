@@ -13,6 +13,15 @@ class Point(models.Model):
     unit = models.CharField()
     chan = models.CharField()
 
+    class Meta:
+        unique_together = (
+            "location",
+            "line_name",
+            "port",
+            "unit",
+            "chan",
+        )
+
 
 class Route(models.Model):
     service = models.ForeignKey(
