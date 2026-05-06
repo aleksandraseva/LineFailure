@@ -85,6 +85,7 @@ def get_seli_ports(
     previous_unit=None,
     previous_ports=None,
     previous_location=None,
+    previous_conf=False,
 ):
     try:
         xml_config = get_config(location, unit)
@@ -127,6 +128,7 @@ def get_seli_ports(
                             previous_unit=unit,
                             previous_ports=port,
                             previous_location=location,
+                            previous_conf=previous_conf,
                         )
                     elif (
                         is_service(next_port)
@@ -172,6 +174,7 @@ def get_seli_ports(
                                 previous_unit=unit,
                                 previous_ports=port,
                                 previous_location=location,
+                                previous_conf=previous_conf,
                             )
                     elif (
                         is_service(next_port)
@@ -198,8 +201,9 @@ def get_seli_ports(
                             previous_unit=unit,
                             previous_ports=port,
                             previous_location=location,
+                            previous_conf=previous_conf,
                         )
-            elif is_conf_port(port_xml):
+            elif is_conf_port(port_xml) and not previous_conf:
                 parts = get_parts_conf(port_xml)
                 for part in parts:
                     role, data = get_role_part(part)
@@ -217,13 +221,26 @@ def get_seli_ports(
                             previous_unit=unit,
                             previous_ports=port,
                             previous_location=location,
+                            previous_conf=True,
                         )
+            elif is_conf_port(port_xml) and previous_conf:
+                print("AAAA")
             else:
                 return
         else:
             return
     except Exception as e:
         print(e)
+
+
+def remove_duplicate_routes():
+    unique = {}
+    for route in Route.objects.all():
+        key = tuple(sorted(route.points.values_list("id", flat=True)))
+        if key in unique:
+            route.delete()
+        else:
+            unique[key] = route.id
 
 
 def is_service(port_element):
