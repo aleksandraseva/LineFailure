@@ -13,8 +13,8 @@
       <p>Role: {{route.role}}</p>
     {% endif %}
     <ul>
-      {% for point in route.points.all %}
-        <li>Location:{{ point.location }} - Line name:{{ point.line_name }} -> {{point.unit}} - {{point.port}} - {{point.chan}}</li>
+      {% for point in  route.routepoint_set.all %}
+        <li>Location:{{ point.point.location }} - Line name:{{ point.point.line_name }} -> {{point.point.unit}} - {{point.point.port}} - {{point.point.chan}}</li>
       {% endfor %}
     </ul>
   {% endfor %}

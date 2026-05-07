@@ -27,5 +27,15 @@ class Route(models.Model):
     service = models.ForeignKey(
         Service, on_delete=models.CASCADE, related_name="routes"
     )
-    points = models.ManyToManyField(Point)
+    points = models.ManyToManyField(Point, through="RoutePoint")
     role = models.CharField()
+
+
+class RoutePoint(models.Model):
+    route = models.ForeignKey("Route", on_delete=models.CASCADE)
+    point = models.ForeignKey("Point", on_delete=models.CASCADE)
+    order = models.PositiveIntegerField()
+
+    class Meta:
+        unique_together = ("route", "order")
+        ordering = ["order"]

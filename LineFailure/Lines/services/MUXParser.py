@@ -5,7 +5,7 @@ from django.conf import settings
 from django.db.models import Q
 from django.db import transaction
 
-from Lines.models.Service import Service, Point, Route
+from Lines.models.Service import Service, Point, Route, RoutePoint
 from Lines.models.Connection import Connection
 
 
@@ -82,12 +82,15 @@ def get_seli_ports(
     port,
     chan,
     route,
+    order=None,
     previous_unit=None,
     previous_ports=None,
     previous_location=None,
     previous_conf=False,
 ):
     try:
+        if order is None:
+            order = {"value": route.points.count() + 1}
         xml_config = get_config(location, unit)
         if xml_config is not None:
             port_xml = get_port(xml_config, port)
@@ -100,7 +103,12 @@ def get_seli_ports(
                 unit=unit,
                 chan=get_chan_name(chan_xml) if chan != "" else "",
             )
-            route.points.add(point)
+            RoutePoint.objects.create(
+                route=route,
+                point=point,
+                order=order["value"],
+            )
+            order["value"] += 1
             if not is_service(port_xml):
                 next_port_data = []
                 cfgm_tag = chan_xml.find("./MOB_CFG_MD[@name='cfgm']")
@@ -125,6 +133,7 @@ def get_seli_ports(
                             port=port_element[2],
                             chan=port_element[3] if len(port_element) > 3 else "",
                             route=route,
+                            order=order,
                             previous_unit=unit,
                             previous_ports=port,
                             previous_location=location,
@@ -171,6 +180,7 @@ def get_seli_ports(
                                 port=next_port,
                                 chan=get_chan_name(chan_xml),
                                 route=route,
+                                order=order,
                                 previous_unit=unit,
                                 previous_ports=port,
                                 previous_location=location,
@@ -190,7 +200,12 @@ def get_seli_ports(
                             unit=port_element[1],
                             chan="",
                         )
-                        route.points.add(point)
+                        RoutePoint.objects.create(
+                            route=route,
+                            point=point,
+                            order=order["value"],
+                        )
+                        order["value"] += 1
                     else:
                         get_seli_ports(
                             location=location,
@@ -198,6 +213,7 @@ def get_seli_ports(
                             port=port_element[2],
                             chan=port_element[3] if len(port_element) > 3 else "",
                             route=route,
+                            order=order,
                             previous_unit=unit,
                             previous_ports=port,
                             previous_location=location,
@@ -218,6 +234,7 @@ def get_seli_ports(
                             port=port_element[2],
                             chan=(port_element[3] if len(port_element) > 3 else ""),
                             route=role_route,
+                            order=None,
                             previous_unit=unit,
                             previous_ports=port,
                             previous_location=location,
@@ -275,7 +292,7 @@ def get_first_point(element, location, service):
             for remote_tag in cfgm_tag.findall(".//remoteCtpDataList/remoteCtpData"):
                 ctp_ref = remote_tag.find("./ctpRef")
                 data.append(ctp_ref.text)
-            for d in data:
+            for i, d in enumerate(data):
                 port_element = d.split("/")
                 next_config = find_config_unit_name(location, port_element[1])
                 port = get_port(next_config, port_element[2])
@@ -291,7 +308,11 @@ def get_first_point(element, location, service):
                 )
                 print("service ID:", service.id)
                 print("ROUTE ID:", route.id)
-                route.points.add(point)
+                RoutePoint.objects.create(
+                    route=route,
+                    point=point,
+                    order=1,
+                )
                 print("ROUTE ID: poslije", route.id)
                 return_data.append(
                     [port_element[1], port_element[2], port_element[3], route]
