@@ -29,6 +29,9 @@ class Route(models.Model):
     )
     points = models.ManyToManyField(Point, through="RoutePoint")
     role = models.CharField()
+    parent_route = models.ForeignKey(
+        "self", null=True, blank=True, on_delete=models.CASCADE, related_name="branches"
+    )
 
 
 class RoutePoint(models.Model):

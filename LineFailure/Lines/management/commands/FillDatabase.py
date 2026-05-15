@@ -11,4 +11,4 @@ class Command(BaseCommand):
 
         find_connection()
         find_all_service()
-        remove_duplicate_routes()
+        # remove_duplicate_routes()

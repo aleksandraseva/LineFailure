@@ -3,13 +3,16 @@
 
     <div style="display:flex">
 
-        <!-- LIJEVA STRANA: checkbox lista -->
         <div style="width:30%; border-right:1px solid #ccc; padding:10px">
 
             {% for line in line_name %}
                 <div style="margin-bottom:5px">
-                    <input type="checkbox" name="lines" value="{{ line }}"
-                        {% if line in selected_lines %}checked{% endif %}>
+                    <input
+                        type="checkbox"
+                        name="lines"
+                        value="{{ line }}"
+                        {% if line in selected_lines %}checked{% endif %}
+                    >
                     {{ line }}
                 </div>
             {% endfor %}
@@ -17,20 +20,55 @@
             <button type="submit">Prikaži</button>
         </div>
 
-        <!-- CENTRALNI DIO: prikaz servisa -->
         <div style="width:70%; padding:20px">
+
             <h3>Servisi</h3>
+
             {% for location, items in grouped_services.items %}
+
                 <h4>{{ location }}</h4>
 
-            {% for item in items %}
-                <p>{{ item.service.name }} – {{ item.remaining_routes_count }} ruta/e</p>
-            {% endfor %}
+                {% for item in items %}
+
+                    <div
+                        style="
+                            background-color:{{ item.color }};
+                            padding:10px;
+                            margin-bottom:10px;
+                            border-radius:6px;
+                        "
+                    >
+
+                        <b>{{ item.service.name }}</b>
+
+                        <br>
+
+                        <b>Status:</b> {{ item.type }}
+
+                        <hr>
+
+                        <b>Next points:</b>
+
+                        <ul>
+                            {% for p in item.next_points %}
+                                <li>
+                                    {{ p.line_name }} |
+                                    {{ p.location }}
+                                </li>
+                            {% empty %}
+                                <li>Nema narednih tačaka</li>
+                            {% endfor %}
+                        </ul>
+
+                    </div>
+
+                {% endfor %}
+
             {% empty %}
                 <p>Nema servisa za odabrane linije.</p>
             {% endfor %}
+
         </div>
 
     </div>
-
 </form>

@@ -2,20 +2,27 @@
   <h2>{{ service.name }} ({{ service.location }})</h2>
 
   {% for route in service.routes.all %}
-    {% if forloop.first %}
-        <h4>Main</h4>
-    {% elif forloop.counter == 2 %}
-        <h4>Backup</h4>
-    {% else %}
-        <h4>Conf</h4>
-    {% endif %}      
-    {% if route.role != "" %}
-      <p>Role: {{route.role}}</p>
+    {% if not route.parent_route %}
+      {% if forloop.first %}
+          <h4>Main</h4>
+      {% elif forloop.counter == 2 %}
+          <h4>Backup</h4>
+      {% endif %}   
+      <ul>
+        {% for point in  route.routepoint_set.all %}
+          <li>Location:{{ point.point.location }} - Line name:{{ point.point.line_name }} -> {{point.point.unit}} - {{point.point.port}} - {{point.point.chan}}</li>
+        {% endfor %}
+      </ul>
+      <!-- {% for branch in route.branches.all %}
+        {% if branch.role != "" %}
+          <p>Role: {{branch.role}}</p>
+        {% endif %}
+        <ul>
+            {% for point in branch.routepoint_set.all %}
+              <li>Location:{{ point.point.location }} - Line name:{{ point.point.line_name }} -> {{point.point.unit}} - {{point.point.port}} - {{point.point.chan}}</li>
+            {% endfor %}
+        </ul>
+      {% endfor %} -->
     {% endif %}
-    <ul>
-      {% for point in  route.routepoint_set.all %}
-        <li>Location:{{ point.point.location }} - Line name:{{ point.point.line_name }} -> {{point.point.unit}} - {{point.point.port}} - {{point.point.chan}}</li>
-      {% endfor %}
-    </ul>
   {% endfor %}
 {% endfor %}

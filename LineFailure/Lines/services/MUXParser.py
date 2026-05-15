@@ -224,7 +224,9 @@ def get_seli_ports(
                 for part in parts:
                     role, data = get_role_part(part)
                     role = get_role(part)
-                    role_route = Route(service=route.service, role=role)
+                    role_route = Route(
+                        service=route.service, role=role, parent_route=route
+                    )
                     role_route.save()
                     for port_data in data:
                         port_element = port_data.split("/")
@@ -297,23 +299,23 @@ def get_first_point(element, location, service):
                 next_config = find_config_unit_name(location, port_element[1])
                 port = get_port(next_config, port_element[2])
                 line_name = get_port_label(port)
-                route = Route(service=service, role="")
+                route = Route(service=service, role="", parent_route=None)
                 route.save()
-                point, created = Point.objects.get_or_create(
-                    location=location,
-                    line_name=line_name or "",
-                    port=port_element[2],
-                    unit=port_element[1],
-                    chan=port_element[3],
-                )
-                print("service ID:", service.id)
-                print("ROUTE ID:", route.id)
-                RoutePoint.objects.create(
-                    route=route,
-                    point=point,
-                    order=1,
-                )
-                print("ROUTE ID: poslije", route.id)
+                # point, created = Point.objects.get_or_create(
+                #     location=location,
+                #     line_name=line_name or "",
+                #     port=port_element[2],
+                #     unit=port_element[1],
+                #     chan=port_element[3],
+                # )
+                # print("service ID:", service.id)
+                # print("ROUTE ID:", route.id)
+                # RoutePoint.objects.create(
+                #     route=route,
+                #     point=point,
+                #     order=1,
+                # )
+                # print("ROUTE ID: poslije", route.id)
                 return_data.append(
                     [port_element[1], port_element[2], port_element[3], route]
                 )
