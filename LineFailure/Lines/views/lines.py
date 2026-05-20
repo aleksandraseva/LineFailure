@@ -1,10 +1,10 @@
-from django.shortcuts import render
-from Lines.models.Service import Route, RoutePoint
+from collections import defaultdict
 
 from django.db.models import F, Value
-from django.db.models.functions import Replace, Lower
+from django.db.models.functions import Lower, Replace
+from django.shortcuts import render
 
-from collections import defaultdict
+from Lines.models.Service import Route, RoutePoint
 
 line_name = [
     "LL 1",
@@ -60,6 +60,9 @@ def connections_view(request):
 
         matched_routes = []
 
+        added_failed_routes = set()
+        added_operative_routes = set()
+
         for word in clean_words:
 
             routes = (
@@ -67,24 +70,31 @@ def connections_view(request):
                 .annotate(
                     clean_line=Lower(
                         Replace(
-                            F("routepoint__point__line_name"), Value(" "), Value("")
+                            F("routepoint__point__line_name"),
+                            Value(" "),
+                            Value(""),
                         )
                     )
                 )
-                .filter(clean_line__icontains=word)
+                .filter(clean_line__iregex=rf"(^|[^a-z0-9]){word}([^a-z0-9]|$)")
                 .select_related("service")
                 .distinct()
             )
 
             for route in routes:
+
                 matched_rp = (
                     RoutePoint.objects.filter(route=route)
                     .annotate(
                         clean_line=Lower(
-                            Replace(F("point__line_name"), Value(" "), Value(""))
+                            Replace(
+                                F("point__line_name"),
+                                Value(" "),
+                                Value(""),
+                            )
                         )
                     )
-                    .filter(clean_line__icontains=word)
+                    .filter(clean_line__iregex=rf"(^|[^a-z0-9]){word}([^a-z0-9]|$)")
                     .order_by("order")
                     .first()
                 )
@@ -93,7 +103,10 @@ def connections_view(request):
                     continue
 
                 next_points = (
-                    RoutePoint.objects.filter(route=route, order__gt=matched_rp.order)
+                    RoutePoint.objects.filter(
+                        route=route,
+                        order__gt=matched_rp.order,
+                    )
                     .select_related("point")
                     .order_by("order")
                 )
@@ -110,23 +123,32 @@ def connections_view(request):
                     for rp in next_points
                 ]
 
-                matched_routes.append(
-                    {
-                        "route": route,
-                        "type": "FAILED",
-                        "color": "#ffcccc",
-                        "next_points": next_points_data,
-                    }
-                )
+                if route.id not in added_failed_routes:
+
+                    matched_routes.append(
+                        {
+                            "route": route,
+                            "type": "FAILED",
+                            "color": "#ffcccc",
+                            "next_points": next_points_data,
+                        }
+                    )
+
+                    added_failed_routes.add(route.id)
+
                 operative_routes = (
                     Route.objects.filter(
-                        service=route.service, parent_route__isnull=True
+                        service=route.service,
+                        parent_route__isnull=True,
                     )
                     .exclude(id=route.id)
                     .distinct()
                 )
 
                 for op_route in operative_routes:
+
+                    if op_route.id in added_operative_routes:
+                        continue
 
                     operative_points = (
                         RoutePoint.objects.filter(route=op_route)
@@ -154,6 +176,8 @@ def connections_view(request):
                             "next_points": operative_points_data,
                         }
                     )
+
+                    added_operative_routes.add(op_route.id)
 
         for item in matched_routes:
 
